@@ -1,10 +1,10 @@
-import {useEffect} from "preact/hooks";
 import './style.css'
+import {useEffect} from "preact/hooks";
 
-const Particle = () => {
+const ParticleTwo = () =>{
     useEffect(() => {
 
-        const canvas = document.getElementById("canvas1");
+        const canvas = document.getElementById("canvas2");
         const ctx = canvas.getContext("2d");
         const cw = (canvas.width = 500), cx = cw / 2;
         const ch = (canvas.height = 500), cy = ch / 2;
@@ -36,20 +36,20 @@ const Particle = () => {
             this.c = oGrd(this.r / 2, 210);
 
             this.rotateX = function (angle) {
-                var cos = Math.cos(angle);
-                var sin = Math.sin(angle);
-                var y1 = this.pos.y * cos - this.pos.z * sin;
-                var z1 = this.pos.z * cos + this.pos.y * sin;
+                let cos = Math.cos(angle);
+                let sin = Math.sin(angle);
+                let y1 = this.pos.y * cos - this.pos.z * sin;
+                let z1 = this.pos.z * cos + this.pos.y * sin;
 
                 this.pos.y = y1;
                 this.pos.z = z1;
             };
 
             this.rotateY = function (angle) {
-                var cos = Math.cos(angle);
-                var sin = Math.sin(angle);
-                var x1 = this.pos.x * cos - this.pos.z * sin;
-                var z1 = this.pos.z * cos + this.pos.x * sin;
+                let cos = Math.cos(angle);
+                let sin = Math.sin(angle);
+                let x1 = this.pos.x * cos - this.pos.z * sin;
+                let z1 = this.pos.z * cos + this.pos.x * sin;
 
                 this.pos.x = x1;
                 this.pos.z = z1;
@@ -57,7 +57,7 @@ const Particle = () => {
 
             this.draw3D = function () {
                 if (this.pos.z > -fl) {
-                    var scale = fl / (fl - this.pos.z);
+                    let scale = fl / (fl - this.pos.z);
 
                     this.scale = {x: scale, y: scale};
                     this.x = vp.x + this.pos.x * scale;
@@ -80,8 +80,8 @@ const Particle = () => {
             };
         }
 
-        for (var i = 0; i < 1800; i++) {
-            balls.push(new Ball(150));
+        for (var i = 0; i < 2000; i++) {
+            balls.push(new Ball(120));
         }
 
         function Draw() {
@@ -121,6 +121,7 @@ const Particle = () => {
 
         Draw();
 
+
         function oGrd(r, h) {
             const grd = ctx.createRadialGradient(r, r, 0, r, r, r);
 
@@ -145,6 +146,7 @@ const Particle = () => {
             }
         }
     }, [])
-    return <canvas id="canvas1"></canvas>
-};
-export default Particle;
+    return <canvas id="canvas2"></canvas>
+}
+
+export default ParticleTwo
