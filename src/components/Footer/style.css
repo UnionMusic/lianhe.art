@@ -1,0 +1,47 @@
+.footer{
+  display: flex;
+  padding: 6rem 10rem;
+  justify-content: space-around;
+
+}
+
+.choose_title_1{
+  font-size: 110px;
+  line-height: 6rem;
+  font-weight: bolder;
+  color: #b3d9ff;
+}
+
+.choose_title_2{
+  font-size: 40px;
+  font-weight: bolder;
+  color: #b3d9ff;
+  margin-top: 0;
+  margin-bottom: 10rem;
+}
+
+.join_button{
+  padding:10px 16px;
+  font-size: 36px;
+  position:relative;
+  text-decoration:none;
+  background-image:
+          linear-gradient(to top, #FFF 50%, #FFF 50%),
+          linear-gradient(to top, #375689 50%, transparent 50%);
+
+  -webkit-background-clip: text,padding-box;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  background-size: 100% 200%;
+  background-position: top;
+  transition: background-position 0.5s ease-in-out;
+}
+
+.join_button:hover{
+  background-position: bottom;
+}
+
+ul li{
+  color: #b3d9ff;
+  padding-bottom: 40px;
+}
