@@ -1,12 +1,20 @@
 import Header from "./header";
 import Container from "./Container";
 import Footer from "./Footer";
+import "../style/index.css";
+import Particle from "./Particle";
 
 const App = () => (
   <div id="app">
     <Header />
     <Container>
-      <div style={{ display: "flex", justifyContent: "space-between",marginTop:"200px" }}>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-between",
+          marginTop: "200px",
+        }}
+      >
         <div
           style={{
             display: "flex",
@@ -58,7 +66,7 @@ const App = () => (
             Copyright global distribution settlement management service
           </div>
         </div>
-        <div style={{ width: "50%" }}></div>
+        <div style={{ width: "40%" }}><Particle /></div>
       </div>
     </Container>
     <Container>
@@ -78,7 +86,7 @@ const App = () => (
           WHAT WE CAN DO
         </div>
         <div style={{ display: "flex" }}>
-          <div style={{ minWidth: "50%" }}></div>
+          <div style={{ minWidth: "40%" }}></div>
           <div style={{ minWidth: "50%", marginTop: "2rem" }}>
             <h2 style={{ color: "#A7DAFF" }}>数字版权管理</h2>
             <p style={{ color: "#A7DAFF", lineHeight: "2em" }}>
@@ -107,7 +115,7 @@ const App = () => (
           音乐发行与版权收益
         </div>
         <div style={{ display: "flex" }}>
-          <div style={{ minWidth: "50%" }}></div>
+          <div style={{ minWidth: "40%" }}></div>
           <div style={{ minWidth: "50%", marginTop: "2rem" }}>
             <h2 style={{ color: "#A7DAFF" }}>数字版权管理</h2>
             <p style={{ color: "#A7DAFF", lineHeight: "2em" }}>
@@ -117,7 +125,6 @@ const App = () => (
           </div>
         </div>
       </div>
-      <div></div>
     </Container>
     <Container>
       <div style={{ display: "flex", flexDirection: "column" }}>
@@ -135,7 +142,7 @@ const App = () => (
         >
           CASE PERSENTATION
         </div>
-        <div style={{ display: "flex" }}></div>
+          <div></div>
       </div>
     </Container>
     <Footer />
