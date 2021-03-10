@@ -51,13 +51,13 @@ const Footer = () => {
             <img src={douyin} />
         </div>
         <div style={{margin:"0 20px"}}>
-            <img src={weixin}/>
+            <img src={weixin} />
         </div>
         <div>
-            <img src={weibo}/>
+            <img src={weibo} />
         </div>
         <div style={{margin:"0 100px 0 20px"}}>
-            <img src={github} style={{height:"48px"}}/>
+            <img src={github} style={{height:"48px"}} />
         </div>
       </div>
     </div>
