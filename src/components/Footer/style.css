@@ -1,5 +1,8 @@
 .footer{
+  width: 100%;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 6rem 10rem;
 }
 
@@ -40,6 +43,8 @@
 }
 
 .link{
+  font-size: 20px;
+  letter-spacing: 10px;
   text-decoration: none;
   color: #b3d9ff;
 }
