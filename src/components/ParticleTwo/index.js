@@ -79,7 +79,7 @@ const ParticleTwo = () =>{
             };
         }
 
-        for (var i = 0; i < 2000; i++) {
+        for (let i = 0; i < 2000; i++) {
             balls.push(new Ball(120));
         }
 
@@ -115,7 +115,7 @@ const ParticleTwo = () =>{
                 }
             });
 
-            const requestId = window.requestAnimationFrame(Draw);
+            window.requestAnimationFrame(Draw);
         }
 
         Draw();
@@ -133,10 +133,10 @@ const ParticleTwo = () =>{
 
         function spherePointPicking(R) {
             //How to generate random points on a sphere:
-            var u1 = Math.random();
-            var u2 = Math.random();
-            var s = Math.acos(2 * u1 - 1) - Math.PI / 2;
-            var t = 2 * Math.PI * u2;
+          let u1 = Math.random();
+          let u2 = Math.random();
+          let s = Math.acos(2 * u1 - 1) - Math.PI / 2;
+          let t = 2 * Math.PI * u2;
 
             return {
                 x: R * Math.cos(s) * Math.cos(t),
@@ -145,7 +145,7 @@ const ParticleTwo = () =>{
             }
     }
     }, [])
-    return <canvas id="canvas2"></canvas>
+    return <canvas id="canvas2" />
 }
 
 export default ParticleTwo
