@@ -1,10 +1,13 @@
 import Header from "./header";
 import Container from "./Container";
-import Footer from "./Footer";
 import "../style/index.css";
 import graph from "../assets/graph.png";
 import Particle from "./Particle";
 import ParticleTwo from "./ParticleTwo";
+import CustomSwiper from "./CustomSwiper";
+import style from "./Footer/style.css";
+import {Link} from "preact-router/match";
+import Footer from "./Footer";
 
 const App = () => (
   <div id="app">
@@ -13,8 +16,10 @@ const App = () => (
       <div
         style={{
           display: "flex",
-          justifyContent: "space-between",
+          justifyContent: "center",
+            alignItems:"center",
           marginTop: "200px",
+            marginBottom: "200px",
         }}
       >
         <div
@@ -22,7 +27,6 @@ const App = () => (
             display: "flex",
             flexDirection: "column",
             width: "50%",
-            marginTop: "6rem",
           }}
         >
           <div
@@ -77,11 +81,11 @@ const App = () => (
       WHAT WE CAN DO
     </div>
     <Container>
-      <div style={{ display: "flex", alignItems: "center" }}>
-        <div style={{ minWidth: "40%" }}>
+      <div style={{ display: "flex", alignItems: "center",justifyContent:"center" }}>
+        <div style={{ width: "40%" }}>
           <ParticleTwo />
         </div>
-        <div style={{ minWidth: "50%", marginTop: "2rem" }}>
+        <div style={{ width: "50%", marginTop: "2rem" }}>
           <h2 style={{ color: "#A7DAFF" }}>数字版权管理</h2>
           <p style={{ color: "#A7DAFF", lineHeight: "2em" }}>
             音乐平台数据自主监控统计，可视化的监控歌手每日作品播放量评论量、粉丝数据的增幅情况、以及音乐上榜单监控并
@@ -91,9 +95,9 @@ const App = () => (
       </div>
     </Container>
     <Container>
-      <div style={{ display: "flex", alignItems: "center" }}>
-        <div style={{ minWidth: "40%" }}><img src={graph} style={{maxWidth:"400px"}}/></div>
-        <div style={{ minWidth: "50%", marginTop: "2rem" }}>
+      <div style={{ display: "flex", alignItems: "center",justifyContent:"center" }}>
+        <div style={{ width: "40%" }}><img src={graph} style={{width:"400px"}}/></div>
+        <div style={{ width: "50%", marginTop: "2rem" }}>
           <h2 style={{ color: "#A7DAFF" }}>音乐发行与版权收益</h2>
           <p style={{ color: "#A7DAFF", lineHeight: "2em" }}>
             音乐平台数据自主监控统计，可视化的监控歌手每日作品播放量评论量、粉丝数据的增幅情况、以及音乐上榜单监控并
@@ -103,7 +107,7 @@ const App = () => (
       </div>
     </Container>
     <Container>
-      <div style={{ display: "flex", flexDirection: "column" }}>
+      <div style={{ display: "flex", flexDirection: "column",alignItems:"center" }}>
         <div
           style={{
             padding: "0",
@@ -118,10 +122,25 @@ const App = () => (
         >
           CASE PERSENTATION
         </div>
-        <div></div>
+        <div><CustomSwiper/></div>
       </div>
     </Container>
-    <Footer />
+      <Container>
+          <div style={{display:"flex",flexDirection:"column",alignItems:"center",marginTop:"6rem"}}>
+              <div class={style.choose_title_1}>CHOOSE US</div>
+              <div class={style.choose_title_2}>NEW DIGITAL RIGHTS MANMGEMENT</div>
+              <div style={{ color: "#b3d9ff" }}>
+                  全新数字版权管理平台，为你提供数字监控平台出品以及版税收益等一切服务
+              </div>
+              <div style={{ color: "#b3d9ff", marginBottom: "6rem",marginTop:"2rem" }}>
+                  是一家服务|个人|数据为一体的平台
+              </div>
+              <Link class={style.join_button} href="/">
+                  立刻加入
+              </Link>
+          </div>
+      </Container>
+      <Footer/>
   </div>
 );
 

@@ -3,7 +3,6 @@ import {useEffect} from "preact/hooks";
 
 const ParticleTwo = () =>{
     useEffect(() => {
-
         const canvas = document.getElementById("canvas2");
         const ctx = canvas.getContext("2d");
         const cw = (canvas.width = 500), cx = cw / 2;
@@ -144,7 +143,7 @@ const ParticleTwo = () =>{
                 y: R * Math.cos(s) * Math.sin(t),
                 z: R * Math.sin(s)
             }
-        }
+    }
     }, [])
     return <canvas id="canvas2"></canvas>
 }
