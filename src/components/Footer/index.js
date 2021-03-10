@@ -4,7 +4,7 @@ import { Link } from "preact-router/match";
 const Footer = () => {
   return (
     <div class={style.footer}>
-      <div style={{ display: "flex", flexDirection: "column" }}>
+      <div style={{ display: "flex", flexDirection: "column",flex:1 }}>
         <div
           style={{
             fontSize: "40px",
@@ -21,7 +21,7 @@ const Footer = () => {
           <div>京ICP备17045054号-10</div>
         </div>
       </div>
-      <div>
+      <div style={{flex:2}}>
         <Link class={style.link} href="/">
           关于我们
         </Link>
