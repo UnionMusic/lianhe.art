@@ -96,10 +96,10 @@ const ParticleTwo = () =>{
             target.x = (m.y - vp.y) * speed;
             target.y = (m.x - vp.x) * speed;
 
-            balls.map(function (b) {
+            balls.map( (b)=> {
                 b.draw3D();
             });
-            balls.sort(function (a, b) {
+            balls.sort( (a, b) => {
                 return a.pos.z - b.pos.z;
             });
 
@@ -107,7 +107,7 @@ const ParticleTwo = () =>{
             target.y *= easing;
 
 
-            balls.map(function (b) {
+            balls.map( (b) => {
                 b.rotateX(target.x);
                 b.rotateY(target.y);
                 if (b.visible) {
@@ -124,9 +124,9 @@ const ParticleTwo = () =>{
         function oGrd(r, h) {
             const grd = ctx.createRadialGradient(r, r, 0, r, r, r);
 
-            grd.addColorStop(0, "hsla(" + h + ",95%,95%, 1)");
-            grd.addColorStop(0.4, "hsla(" + h + ",95%,45%,.5)");
-            grd.addColorStop(1, "hsla(" + h + ", 95%, 45%, 0)");
+            grd.addColorStop(0, `hsla(${h},95%,95%, 1)`);
+            grd.addColorStop(0.4, `hsla(${h},95%,95%, .5)`);
+            grd.addColorStop(1, `hsla(${h},95%,95%, 0)`);
 
             return grd;
         }
