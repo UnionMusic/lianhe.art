@@ -1,8 +1,6 @@
 .footer{
   display: flex;
   padding: 6rem 10rem;
-  justify-content: space-around;
-
 }
 
 .choose_title_1{
@@ -39,6 +37,11 @@
 
 .join_button:hover{
   background-position: bottom;
+}
+
+.link{
+  text-decoration: none;
+  color: #b3d9ff;
 }
 
 ul li{
