@@ -34,7 +34,6 @@ const App = () => (
               padding: "0",
               margin: "0",
               fontSize: "4rem",
-              fontFamily: "PingFang SC",
               fontWeight: "600",
               color: "#FFFFFF",
             }}
@@ -43,8 +42,7 @@ const App = () => (
           </div>
           <div
             style={{
-              fontFamily: "PingFang SC",
-              fontWeight: "200",
+              fontWeight: "100",
               color: "#FFFFFF",
             }}
           >
@@ -53,7 +51,6 @@ const App = () => (
           <div
             style={{
               marginTop: "2rem",
-              fontFamily: "SF Pro",
               fontWeight: "600",
               fontStyle: "italic",
               color: "#FFFFFF",
@@ -63,8 +60,7 @@ const App = () => (
           </div>
           <div
             style={{
-              fontFamily: "SF Pro",
-              fontWeight: "400",
+              fontWeight: "200",
               fontStyle: "italic",
               color: "#FFFFFF",
             }}
@@ -95,8 +91,9 @@ const App = () => (
       </div>
     </Container>
     <Container>
-      <div style={{ display: "flex", alignItems: "center",justifyContent:"center" }}>
-        <div style={{ width: "40%" }}><img src={graph} style={{width:"400px"}} /></div>
+      <div style={{ display: "flex", alignItems: "center",justifyContent:"center",marginTop: "200px",
+      }}>
+        <div style={{ width: "40%" }}><img src={graph} style={{width:"460px"}} /></div>
         <div style={{ width: "50%", marginTop: "2rem" }}>
           <h2 style={{ color: "#A7DAFF" }}>音乐发行与版权收益</h2>
           <p style={{ color: "#A7DAFF", lineHeight: "2em" }}>
@@ -107,13 +104,13 @@ const App = () => (
       </div>
     </Container>
     <Container>
-      <div style={{ display: "flex", flexDirection: "column",alignItems:"center" }}>
+      <div style={{ display: "flex", flexDirection: "column",alignItems:"center",marginTop: "200px",
+      }}>
         <div
           style={{
             padding: "0",
             margin: "0",
             fontSize: "2rem",
-            fontFamily: "PingFang SC",
             fontWeight: "800",
             textAlign: "center",
             marginBottom: "2rem",
@@ -126,7 +123,8 @@ const App = () => (
       </div>
     </Container>
       <Container>
-          <div style={{display:"flex",flexDirection:"column",alignItems:"center",marginTop:"6rem"}}>
+          <div style={{display:"flex",flexDirection:"column",alignItems:"center",marginTop: "200px",
+          }}>
               <div class={style.choose_title_1}>CHOOSE US</div>
               <div class={style.choose_title_2}>NEW DIGITAL RIGHTS MANMGEMENT</div>
               <div style={{ color: "#b3d9ff" }}>

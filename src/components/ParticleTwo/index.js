@@ -80,7 +80,7 @@ const ParticleTwo = () =>{
         }
 
         for (let i = 0; i < 2000; i++) {
-            balls.push(new Ball(120));
+            balls.push(new Ball(160));
         }
 
         function Draw() {

@@ -5,9 +5,9 @@ const Particle = () => {
   useEffect(() => {
     const canvas = document.getElementById("canvas1");
     const ctx = canvas.getContext("2d");
-    const cw = (canvas.width = 500),
+    const cw = (canvas.width = 680),
       cx = cw / 2;
-    const ch = (canvas.height = 500),
+    const ch = (canvas.height = 680),
       cy = ch / 2;
 
     const m = { x: 0, y: 0 };
@@ -80,7 +80,7 @@ const Particle = () => {
     }
 
     for (let i = 0; i < 1800; i++) {
-      balls.push(new Ball(150));
+      balls.push(new Ball(180));
     }
 
     function Draw() {
