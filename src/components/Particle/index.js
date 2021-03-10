@@ -36,20 +36,20 @@ const Particle = () => {
             this.c = oGrd(this.r / 2, 210);
 
             this.rotateX = function (angle) {
-                var cos = Math.cos(angle);
-                var sin = Math.sin(angle);
-                var y1 = this.pos.y * cos - this.pos.z * sin;
-                var z1 = this.pos.z * cos + this.pos.y * sin;
+              let cos = Math.cos(angle);
+              let sin = Math.sin(angle);
+              let y1 = this.pos.y * cos - this.pos.z * sin;
+              let z1 = this.pos.z * cos + this.pos.y * sin;
 
                 this.pos.y = y1;
                 this.pos.z = z1;
             };
 
             this.rotateY = function (angle) {
-                var cos = Math.cos(angle);
-                var sin = Math.sin(angle);
-                var x1 = this.pos.x * cos - this.pos.z * sin;
-                var z1 = this.pos.z * cos + this.pos.x * sin;
+                let cos = Math.cos(angle);
+              let sin = Math.sin(angle);
+              let x1 = this.pos.x * cos - this.pos.z * sin;
+              let z1 = this.pos.z * cos + this.pos.x * sin;
 
                 this.pos.x = x1;
                 this.pos.z = z1;
@@ -57,7 +57,7 @@ const Particle = () => {
 
             this.draw3D = function () {
                 if (this.pos.z > -fl) {
-                    var scale = fl / (fl - this.pos.z);
+                  let scale = fl / (fl - this.pos.z);
 
                     this.scale = {x: scale, y: scale};
                     this.x = vp.x + this.pos.x * scale;
@@ -80,7 +80,7 @@ const Particle = () => {
             };
         }
 
-        for (var i = 0; i < 1800; i++) {
+        for (let i = 0; i < 1800; i++) {
             balls.push(new Ball(150));
         }
 
@@ -116,7 +116,7 @@ const Particle = () => {
                 }
             });
 
-            const requestId = window.requestAnimationFrame(Draw);
+            window.requestAnimationFrame(Draw);
         }
 
         Draw();
@@ -133,10 +133,10 @@ const Particle = () => {
 
         function spherePointPicking(R) {
             //How to generate random points on a sphere:
-            var u1 = Math.random();
-            var u2 = Math.random();
-            var s = Math.acos(2 * u1 - 1) - Math.PI / 2;
-            var t = 2 * Math.PI * u2;
+            const u1 = Math.random();
+          const u2 = Math.random();
+          const s = Math.acos(2 * u1 - 1) - Math.PI / 2;
+          const t = 2 * Math.PI * u2;
 
             return {
                 x: R * Math.cos(s) * Math.cos(t),
@@ -145,6 +145,6 @@ const Particle = () => {
             }
         }
     }, [])
-    return <canvas id="canvas1"></canvas>
+    return <canvas id="canvas1" />
 };
 export default Particle;

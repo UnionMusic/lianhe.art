@@ -96,7 +96,7 @@ const App = () => (
     </Container>
     <Container>
       <div style={{ display: "flex", alignItems: "center",justifyContent:"center" }}>
-        <div style={{ width: "40%" }}><img src={graph} style={{width:"400px"}}/></div>
+        <div style={{ width: "40%" }}><img src={graph} style={{width:"400px"}} /></div>
         <div style={{ width: "50%", marginTop: "2rem" }}>
           <h2 style={{ color: "#A7DAFF" }}>音乐发行与版权收益</h2>
           <p style={{ color: "#A7DAFF", lineHeight: "2em" }}>
@@ -122,7 +122,7 @@ const App = () => (
         >
           CASE PERSENTATION
         </div>
-        <div><CustomSwiper/></div>
+        <div><CustomSwiper /></div>
       </div>
     </Container>
       <Container>
@@ -140,7 +140,7 @@ const App = () => (
               </Link>
           </div>
       </Container>
-      <Footer/>
+      <Footer />
   </div>
 );
 
