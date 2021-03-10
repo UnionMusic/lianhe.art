@@ -1,0 +1,20 @@
+# serverless.yml
+
+component: cdn
+name: edge
+app: edge
+stage: prod
+org: lianhe
+
+inputs:
+  area: mainland
+  domain: ${name}.${org}.art
+  origin:
+    origins:
+      - ${org}-art-3gy61clx742a81be-1254054744.tcloudbaseapp.com
+    originPullProtocol: http
+  async: false
+  onlyRefresh: true
+  refreshCdn:
+    urls:
+      - https://${name}.${org}.art
