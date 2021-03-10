@@ -7,15 +7,16 @@
 }
 
 .choose_title_1{
-  font-size: 110px;
+  font-size: 140px;
   line-height: 6rem;
   font-weight: bolder;
   color: #b3d9ff;
 }
 
 .choose_title_2{
-  font-size: 40px;
-  font-weight: bolder;
+  font-size: 60px;
+  font-weight: 100;
+  line-height: 2;
   color: #b3d9ff;
   margin-top: 0;
   margin-bottom: 10rem;
@@ -23,7 +24,7 @@
 
 .join_button{
   padding:10px 16px;
-  font-size: 36px;
+  font-size: 50px;
   position:relative;
   text-decoration:none;
   background-image:
