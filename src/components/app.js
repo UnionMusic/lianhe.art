@@ -1,7 +1,7 @@
 import Header from "./header";
 import Container from "./Container";
 import "../style/index.css";
-import graph from "../assets/graph.png";
+import graph from "../assets/images/graph.png";
 import Particle from "./Particle";
 import ParticleTwo from "./ParticleTwo";
 import CustomSwiper from "./CustomSwiper";
