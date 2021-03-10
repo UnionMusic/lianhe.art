@@ -81,6 +81,7 @@ jobs:
         with:
           repo-token: ${{secrets.GITHUB_TOKEN}}
           check-name: eslint
+      - run: yarn lint
 
   build:
     name: 'Build Test'
