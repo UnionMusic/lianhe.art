@@ -6,8 +6,8 @@ import style from "./Footer/style.css";
 import { Link } from "preact-router/match";
 import Footer from "./Footer";
 
-import line from '../assets/images/line.png'
-import ball from '../assets/images/ball.png'
+import line from "../assets/images/line.png";
+import ball from "../assets/images/ball.png";
 
 const App = () => (
   <div id="app">
@@ -66,7 +66,7 @@ const App = () => (
           </div>
         </div>
         <div>
-          <img src={ball} style={{height:"900px"}} />
+          <img src={ball} style={{ height: "900px" }} />
         </div>
       </div>
     </Container>
@@ -76,7 +76,7 @@ const App = () => (
     <Container>
       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
         <div>
-          <img src={line} style={{height:"1000px"}} />
+          <img src={line} style={{ height: "1000px" }} />
         </div>
         <div style={{ width: "50%", fontSize: "40px" }}>
           <h2 style={{ color: "#A7DAFF", marginBottom: "60px" }}>数字版权管理</h2>
