@@ -34,7 +34,6 @@
   "dependencies": {
     "@egjs/flicking-plugins": "^3.3.0",
     "@egjs/preact-flicking": "^3.1.0",
-    "jquery": "^3.6.0",
     "node-sass": "^5.0.0",
     "preact": "^10.3.2",
     "preact-render-to-string": "^5.1.4",
