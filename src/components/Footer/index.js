@@ -21,7 +21,7 @@ const Footer = () => {
           LIANHEART
         </div>
         <div style={{ color: "#b3d9ff" }}>
-          <div>© 2017 - 2020 UNIONMUSIC ALL RIGHTS RESERVED</div>
+          <div>© 2017 - 2020 UNIONMUSIC ALL RIGHTS RESERVED.</div>
           <div>京ICP备17045054号-10</div>
         </div>
       </div>

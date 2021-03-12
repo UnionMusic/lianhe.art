@@ -1,10 +1,9 @@
 import { Link } from 'preact-router/match';
 import style from './style.css'
-import logo from '../../assets/images/logo.png'
 
 const Header = () => (
 	<header class={style.header}>
-		<img src={logo} />
+		<span style={{fontSize:"3rem",fontWeight:"bold",lineHeight:"60px",fontStyle:"italic",letterSpacing:"6px"}}>LIANHEART</span>
 		<nav>
 			<Link activeClassName={style.active} href="/">帮助中心</Link>
 			<Link activeClassName={style.active} href="/contact">联系我们</Link>
