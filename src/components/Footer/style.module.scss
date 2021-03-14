@@ -1,30 +1,36 @@
 .footer{
-  width: 100%;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 6rem 10rem;
+  justify-content: space-between;
+  gap:2em;
+  padding: 2em 4em;
+  .link{
+    font-size: 1.6rem;
+    letter-spacing: 4px;
+    text-decoration: none;
+    color: #041b37;
+  }
+  .color{
+    background: black;
+  }
 }
 
 .choose_title_1{
-  font-size: 140px;
-  line-height: 6rem;
+  font-size: 6rem;
   font-weight: bolder;
   color: #b3d9ff;
 }
 
 .choose_title_2{
-  font-size: 60px;
-  font-weight: 100;
-  line-height: 2;
+  font-size: 3.6rem;
+  font-weight: 400;
   color: #b3d9ff;
-  margin-top: 0;
-  margin-bottom: 10rem;
+  margin-bottom: 4em;
 }
 
 .join_button{
-  padding:10px 16px;
-  font-size: 50px;
+  font-size: 3rem;
+  padding: .2em;
   position:relative;
   text-decoration:none;
   background-image:
@@ -43,14 +49,7 @@
   background-position: bottom;
 }
 
-.link{
-  font-size: 20px;
-  letter-spacing: 10px;
-  text-decoration: none;
-  color: #b3d9ff;
-}
-
 ul li{
   color: #b3d9ff;
-  padding-bottom: 40px;
+  padding-bottom: 2em;
 }

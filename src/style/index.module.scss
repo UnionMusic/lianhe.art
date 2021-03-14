@@ -3,7 +3,6 @@ html{
 }
 
 html, body {
-  margin: 0;
   font-family:
     helvetica neue,
     Tahoma,
@@ -14,7 +13,6 @@ html, body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  height: 100%;
 	padding: 0;
 	margin: 0;
 	background: linear-gradient(180deg, #011548 0%, #2A5298 90%);
@@ -40,9 +38,9 @@ ul,li{
 }
 
 .can_do{
-	font-size: 2rem;
+	font-size: 6rem;
+  margin-top: 4em;
 	font-weight: 800;
-	margin-bottom: 0;
 	text-align: center;
 	color: #A7DAFF;
 }

@@ -1,7 +1,7 @@
 import Header from "./Header";
 import { h } from "preact";
 import Container from "./Container";
-import "../style/index.css";
+import "../style/index.module.scss";
 import CustomSwiper from "./CustomSwiper";
 import style from "./Footer/style.module.scss";
 import { Link } from "preact-router/match";
@@ -18,8 +18,8 @@ const App = () => (
           display: "flex",
           justifyContent: "space-between",
           alignItems: "center",
-          marginTop: "100px",
-          marginBottom: "200px",
+          marginTop: "4em",
+          marginBottom: "4em",
         }}
       >
         <div
@@ -33,7 +33,7 @@ const App = () => (
             style={{
               padding: "0",
               margin: "0",
-              fontSize: "8rem",
+              fontSize: "4rem",
               fontWeight: "600",
               color: "#FFFFFF",
             }}
@@ -45,7 +45,7 @@ const App = () => (
           </div>
           <div
             style={{
-              marginTop: "60px",
+              marginTop: "2em",
               fontWeight: "600",
               fontStyle: "italic",
               fontSize: "2rem",
@@ -65,27 +65,27 @@ const App = () => (
             Copyright global distribution settlement management service
           </div>
         </div>
-        <div>
+        <div style={{width:"50%"}}>
           <img src={ball}/>
         </div>
       </div>
     </Container>
-    <div class="can_do" style={{ fontSize: "80px", marginTop: "200px", marginBottom: "80px" }}>
+    <div class="can_do">
       WHAT WE CAN DO
     </div>
     <Container>
       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
-        <div>
+        <div style={{width:"50%"}}>
           <img src={line} />
         </div>
-        <div style={{ width: "50%", fontSize: "40px" }}>
-          <h2 style={{ color: "#A7DAFF", marginBottom: "60px" }}>数字版权管理</h2>
-          <p style={{ color: "#A7DAFF", fontSize: "26px", fontWeight: "200" }}>
+        <div style={{ width: "50%" }}>
+          <h2 style={{ color: "#A7DAFF",fontSize:"3.2rem", marginBottom: "1em" }}>数字版权管理</h2>
+          <p style={{ color: "#A7DAFF", fontSize: "2rem", fontWeight: "200",marginBottom:"4em" }}>
             音乐平台数据自主监控统计，可视化的监控歌手每日作品播放量评论量、粉丝数据的增幅情况、以及音乐上榜单监控并
             推送通知歌手在平台所授权的原创音乐作品将免费拥有国际标准音像制品「ISRC」编码，用于港澳台、海外地区的音乐/专辑出版销售。
           </p>
-          <h2 style={{ color: "#A7DAFF", marginBottom: "60px" }}>音乐发行与版权收益</h2>
-          <p style={{ color: "#A7DAFF", fontSize: "26px", fontWeight: "200" }}>
+          <h2 style={{ color: "#A7DAFF",fontSize:"3.2rem", marginBottom: "1em" }}>音乐发行与版权收益</h2>
+          <p style={{ color: "#A7DAFF", fontSize: "2rem", fontWeight: "200" }}>
             音乐平台数据自主监控统计，可视化的监控歌手每日作品播放量评论量、粉丝数据的增幅情况、以及音乐上榜单监控并
             推送通知歌手在平台所授权的原创音乐作品将免费拥有国际标准音像制品「ISRC」编码，用于港澳台、海外地区的音乐/专辑出版销售。
           </p>
@@ -93,16 +93,14 @@ const App = () => (
       </div>
     </Container>
     <Container>
-      <div style={{ display: "flex", flexDirection: "column", alignItems: "center", marginTop: "400px" }}>
+      <div style={{ display: "flex", flexDirection: "column", alignItems: "center", marginTop: "20em" }}>
         <h2
           style={{
-            padding: "0",
-            margin: "0",
             letterSpacing: "2px",
-            fontSize: "80px",
+            fontSize: "6rem",
             fontWeight: "800",
             textAlign: "center",
-            marginBottom: "2rem",
+            marginBottom: "1em",
             color: "#A7DAFF",
           }}
         >
@@ -110,16 +108,16 @@ const App = () => (
         </h2>
       </div>
     </Container>
-    <CustomSwiper />
+    <div><CustomSwiper /></div>
     <Container>
-      <div style={{ display: "flex", flexDirection: "column", alignItems: "center", marginTop: "400px" }}>
+      <div style={{ display: "flex", flexDirection: "column", alignItems: "center", marginTop: "20em" }}>
         <div class={style.choose_title_1}>CHOOSE US</div>
         <div class={style.choose_title_2}>NEW DIGITAL RIGHTS MANMGEMENT</div>
-        <div style={{ width: "460px" }}>
-          <div style={{ color: "#b3d9ff", fontSize: "24px" }}>
+        <div style={{ width: "40%" }}>
+          <div style={{ color: "#b3d9ff", fontSize: "2rem" }}>
             全新数字版权管理平台，为你提供数字监控平台出品以及版税收益等一切服务
           </div>
-          <div style={{ color: "#b3d9ff", fontSize: "24px", marginBottom: "6rem", marginTop: "2rem" }}>
+          <div style={{ color: "#b3d9ff", fontSize: "2rem", marginBottom: "6em", marginTop: "2em" }}>
             是一家服务|个人|数据为一体的平台
           </div>
         </div>

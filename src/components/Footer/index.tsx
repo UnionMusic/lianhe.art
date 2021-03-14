@@ -8,41 +8,41 @@ import github from '../../assets/images/github.png'
 
 const Footer = () => {
   return (
-    <div class={style.footer}>
+    <div className={style.footer}>
       <div style={{ display: "flex", flexDirection: "column" }}>
         <div
           style={{
-            fontSize: "40px",
+            fontSize: "2rem",
             fontStyle: "italic",
             letterSpacing: "6px",
             fontWeight: "bold",
-            color: "#b3d9ff",
+            color: "#041b37",
           }}
         >
           LIANHEART
         </div>
-        <div style={{ color: "#b3d9ff" }}>
+        <div style={{ color: "#041b37" }}>
           <div>© 2017 - 2020 UNIONMUSIC ALL RIGHTS RESERVED.</div>
           <div>京ICP备17045054号-10</div>
         </div>
       </div>
-      <div style={{ marginBottom: "40px"}}>
+      <div style={{ display:"flex",justifyContent:"center",alignItems:"center",gap:".6em",marginBottom: "2em",flexBasis:"auto"}}>
         <Link class={style.link} href="/">
           关于我们
         </Link>
-        <span style={{ margin: "0 20px" }}>/</span>
+        <div class={style.link}>/</div>
         <Link class={style.link} href="/">
           开放资源
         </Link>
-        <span style={{ margin: "0 20px" }}>/</span>
+        <div class={style.link}>/</div>
         <Link class={style.link} href="/">
           用户协议
         </Link>
-        <span style={{ margin: "0 20px" }}>/</span>
+        <div class={style.link}>/</div>
         <Link class={style.link} href="/">
           隐私协议
         </Link>
-        <span style={{ margin: "0 20px" }}>/</span>
+        <div class={style.link}>/</div>
         <Link class={style.link} href="/">
           侵权投诉
         </Link>
@@ -51,14 +51,14 @@ const Footer = () => {
         <div>
             <img src={douyin} />
         </div>
-        <div style={{margin:"0 20px"}}>
+        <div style={{margin:"0 1em"}}>
             <img src={weixin} />
         </div>
         <div>
             <img src={weibo} />
         </div>
-        <div style={{margin:"0 100px 0 20px"}}>
-            <img src={github} style={{height:"48px"}} />
+        <div style={{margin:"0 8em 0 1em"}}>
+            <img src={github} style={{maxHeight:"48px"}} />
         </div>
       </div>
     </div>

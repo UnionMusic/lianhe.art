@@ -1,7 +1,7 @@
 import Flicking from "@egjs/preact-flicking";
 import { Fade } from "@egjs/flicking-plugins";
 import Case from "../Case";
-import {h} from 'preact'
+import { h } from 'preact'
 
 const CustomSwiper = () => {
   return (
@@ -15,26 +15,24 @@ const CustomSwiper = () => {
       circular={true}
       infinite={false}
       infiniteThreshold={0}
-      lastIndex={Infinity}
       threshold={40}
       duration={500}
       defaultIndex={0}
       inputType={["touch", "mouse"]}
       bounce={0}
-      autoResize={false}
-      adaptive={false}
-      zIndex={100}
+      autoResize={true}
+      adaptive={true}
+      zIndex={1000}
       bound={true}
+      panelEffect = {x => 1 - Math.pow(1 - x, 3)}
       overflow={false}
       hanger={"50%"}
       anchor={"50%"}
-      gap={50}
+      gap={60}
       moveType={{ type: "snap", count: 1 }}
       plugins={[new Fade("",.6)]}
     >
-      <Case />
-      <Case />
-      <Case />
+      {["","",""].map((item,index)=>{ return <Case key={index}/>})}
     </Flicking>
   );
 };

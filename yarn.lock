@@ -1008,6 +1008,18 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
+"@improv/preact-responsive@^0.10.1":
+  version "0.10.1"
+  resolved "https://registry.yarnpkg.com/@improv/preact-responsive/-/preact-responsive-0.10.1.tgz#edaee293020a340e599e27686c6409ba055554f8"
+  integrity sha512-gxRzOtQ5Zdl9b2at3K5g2WKkLcezBYxpH1JhtMLvz6Jccz1EntFdQrtVebC5d2F5g2zzblSihINaxgyq4meSDw==
+  dependencies:
+    "@improv/responsive" "^0.10.1"
+
+"@improv/responsive@^0.10.1":
+  version "0.10.1"
+  resolved "https://registry.yarnpkg.com/@improv/responsive/-/responsive-0.10.1.tgz#375c5a251c460a8f063de2627af8c9d5f5cc2e9c"
+  integrity sha512-X/7iFuzFIip1735RZYrUB9mDA4eAWywgaRHUNL/yPaRnxJsTkq1nWRPNCApTDDXwix6WAifBXtLHe4cxciMSLw==
+
 "@jest/console@^24.7.1", "@jest/console@^24.9.0":
   version "24.9.0"
   resolved "https://registry.yarnpkg.com/@jest/console/-/console-24.9.0.tgz#79b1bc06fb74a8cfb01cbdedf945584b1b9707f0"
