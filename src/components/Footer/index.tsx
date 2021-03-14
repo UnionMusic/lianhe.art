@@ -1,5 +1,6 @@
-import style from "./style.css";
+import style from "./style.module.scss";
 import { Link } from "preact-router/match";
+import { h } from 'preact'
 import douyin from '../../assets/images/douyin.png'
 import weixin from '../../assets/images/weixin.png'
 import weibo from '../../assets/images/weibo.png'

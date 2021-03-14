@@ -29,7 +29,8 @@
     "sirv-cli": "1.0.3",
     "stylelint": "^13.12.0",
     "stylelint-config-recommended": "^4.0.0",
-    "stylelint-config-standard": "^21.0.0"
+    "stylelint-config-standard": "^21.0.0",
+    "typescript-plugin-css-modules": "^3.2.0"
   },
   "dependencies": {
     "@egjs/flicking-plugins": "^3.3.0",

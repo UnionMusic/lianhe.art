@@ -1,6 +1,7 @@
 import Flicking from "@egjs/preact-flicking";
 import { Fade } from "@egjs/flicking-plugins";
 import Case from "../Case";
+import {h} from 'preact'
 
 const CustomSwiper = () => {
   return (

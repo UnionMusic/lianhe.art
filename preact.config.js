@@ -1,3 +1,5 @@
+import { resolve } from 'path'
+
 export default {
   // you can add preact-cli plugins here
   plugins: [],
@@ -12,7 +14,6 @@ export default {
    **/
   webpack(config, env, helpers, options) {
     /** you can change the config here **/
-
     let sass = helpers.getLoadersByName(config, 'proxy-loader')[1];
     sass.loader.options.sourceMap = true;
   },

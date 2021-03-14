@@ -1,11 +1,11 @@
 import Header from "./Header";
+import { h } from "preact";
 import Container from "./Container";
 import "../style/index.css";
 import CustomSwiper from "./CustomSwiper";
-import style from "./Footer/style.css";
+import style from "./Footer/style.module.scss";
 import { Link } from "preact-router/match";
 import Footer from "./Footer";
-
 import line from "../assets/images/line.png";
 import ball from "../assets/images/ball.png";
 
@@ -33,14 +33,14 @@ const App = () => (
             style={{
               padding: "0",
               margin: "0",
-              fontSize: "120px",
+              fontSize: "8rem",
               fontWeight: "600",
               color: "#FFFFFF",
             }}
           >
             数字版权管理平台
           </div>
-          <div style={{ fontSize: "30px", fontWeight: "100", color: "#ffffff" }}>
+          <div style={{ fontSize: "2rem", fontWeight: "100", color: "#ffffff" }}>
             提供企业/个人一站式版权管理｜发行｜结算服务
           </div>
           <div
@@ -48,7 +48,7 @@ const App = () => (
               marginTop: "60px",
               fontWeight: "600",
               fontStyle: "italic",
-              fontSize: "30px",
+              fontSize: "2rem",
               color: "#FFFFFF",
             }}
           >
@@ -57,7 +57,7 @@ const App = () => (
           <div
             style={{
               fontWeight: "200",
-              fontSize: "30px",
+              fontSize: "2rem",
               fontStyle: "italic",
               color: "#FFFFFF",
             }}
@@ -66,7 +66,7 @@ const App = () => (
           </div>
         </div>
         <div>
-          <img src={ball} style={{ height: "900px" }} />
+          <img src={ball}/>
         </div>
       </div>
     </Container>
@@ -76,7 +76,7 @@ const App = () => (
     <Container>
       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
         <div>
-          <img src={line} style={{ height: "1000px" }} />
+          <img src={line} />
         </div>
         <div style={{ width: "50%", fontSize: "40px" }}>
           <h2 style={{ color: "#A7DAFF", marginBottom: "60px" }}>数字版权管理</h2>
