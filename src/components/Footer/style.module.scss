@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: space-between;
   gap:2em;
-  padding: 2em 4em;
+  padding: 2em 40em;
   .link{
     font-size: 1.6rem;
     letter-spacing: 4px;
@@ -52,4 +52,9 @@
 ul li{
   color: #b3d9ff;
   padding-bottom: 2em;
+}
+
+.footer_1440{
+  @extend .footer;
+  padding: 4em 10em;
 }
