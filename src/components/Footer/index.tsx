@@ -69,7 +69,7 @@ const Footer = () => {
         <svg class="icon" aria-hidden="true" style={{color:"#041b37"}}>
           <use xlinkHref="#uniweibo"></use>
         </svg>
-        <svg class="icon" aria-hidden="true" style={{color:"#041b37",width:"3em",height:"3em"}}>
+        <svg class="icon" aria-hidden="true" style={{color:"#041b37",width:"2.5em",height:"2.5em"}}>
           <use xlinkHref="#unigithub"></use>
         </svg>
       </div>
