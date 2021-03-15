@@ -56,7 +56,7 @@ const Footer = () => {
           侵权投诉
         </Link>
       </div>
-      <div style={{ marginBottom: "40px", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+      <div style={{ marginBottom: "2em", display: "flex", justifyContent: "space-between", alignItems: "center",gap:"2em" }}>
         <svg class="icon" aria-hidden="true" style={{color:"#041b37"}}>
           <use xlinkHref="#unidouyin1"></use>
         </svg>
