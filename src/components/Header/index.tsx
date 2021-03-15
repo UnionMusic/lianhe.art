@@ -7,7 +7,7 @@ import {ResponsiveContext} from "../app";
 const Header = () => {
   const responsive = useContext(ResponsiveContext)
   return (
-    <header class={responsive?`${style.header_1200}`:`${style.header}`}>
+    <header className={responsive?`${style.header_1440}`:`${style.header}`}>
       <span>LIANHEART</span>
       <nav>
         <Link href="/">帮助中心</Link>

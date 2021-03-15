@@ -1,7 +1,7 @@
 import Header from "./Header";
 import { h } from "preact";
 import Container from "./Container";
-import appStyle from "../style/index.scss";
+import "../style/index.scss";
 import CustomSwiper from "./CustomSwiper";
 import style from "./Footer/style.scss";
 import { Link } from "preact-router/match";
@@ -81,7 +81,7 @@ const App = () => {
             </div>
           </div>
         </Container>
-        <div class={appStyle.can_do}>WHAT WE CAN DO</div>
+        <div class="can_do">WHAT WE CAN DO</div>
         <Container>
           <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
             <div style={{ width:"60%" }}>
