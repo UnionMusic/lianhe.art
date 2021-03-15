@@ -1,9 +1,9 @@
 import Header from "./Header";
 import { h } from "preact";
 import Container from "./Container";
-import "../style/index.module.scss";
+import appStyle from "../style/index.scss";
 import CustomSwiper from "./CustomSwiper";
-import style from "./Footer/style.module.scss";
+import style from "./Footer/style.scss";
 import { Link } from "preact-router/match";
 import Footer from "./Footer";
 import line from "../assets/images/line.png";
@@ -81,7 +81,7 @@ const App = () => {
             </div>
           </div>
         </Container>
-        <div class="can_do">WHAT WE CAN DO</div>
+        <div class={appStyle.can_do}>WHAT WE CAN DO</div>
         <Container>
           <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
             <div style={{ width:"60%" }}>
@@ -122,8 +122,13 @@ const App = () => {
         </div>
         <Container>
           <div style={{ display: "flex", flexDirection: "column", alignItems: "center", marginTop: "20em" }}>
-            <div class={style.choose_title_1}>CHOOSE US</div>
-            <div class={style.choose_title_2}>NEW DIGITAL RIGHTS MANMGEMENT</div>
+            <div style={{ fontSize: "6rem",
+              fontWeight: "bolder",
+              color: "#b3d9ff"}}>CHOOSE US</div>
+            <div style={{  fontSize: "3.6rem",
+              fontWeight: 400,
+              color: "#b3d9ff",
+              marginBottom: "4em"}}>NEW DIGITAL RIGHTS MANMGEMENT</div>
             <div style={{ display:"flex",flexDirection:"column",width:"30%" }}>
               <div style={{ color: "#b3d9ff", fontSize: "2rem" }}>
                 全新数字版权管理平台，为你提供数字监控平台出品以及版税收益等一切服务

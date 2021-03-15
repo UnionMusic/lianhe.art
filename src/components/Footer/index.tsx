@@ -1,4 +1,5 @@
-import style from "./style.module.scss";
+import style from "./style.scss";
+import '../../style/index.scss'
 import { Link } from "preact-router/match";
 import { h } from "preact";
 import {useContext} from "preact/hooks";

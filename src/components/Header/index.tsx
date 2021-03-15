@@ -1,6 +1,6 @@
 import { Link } from "preact-router/match";
 import { h } from "preact";
-import style from "./style.module.scss";
+import style from "./style.scss";
 import {useContext} from "preact/hooks";
 import {ResponsiveContext} from "../app";
 
