@@ -76,3 +76,28 @@ jobs:
 
       - name: Refresh CDN Cache
         run: sls deploy
+
+      - name: Slack Notification
+        if: always()
+        uses: 8398a7/action-slack@v3
+        with:
+          status: custom
+          custom_payload: |
+            {
+              text: Successful deploy of ${{ github.repository }},
+              attachments: [{
+                fallback: 'fallback',
+                color: '${{ job.status }}' === 'success' ? 'good' : '${{ job.status }}' === 'failure' ? 'danger' : 'warning',
+                "author_name": "${{ github.actor }}",
+                author_icon: "${{ github.event.sender.avatar_url }}",
+                title: '${{ github.event.head_commit.message }}',
+                title_link: '${{ github.event.repository.url }}/commit/${{ github.sha }}'
+                text: '查看 Workflow <${{ github.event.repository.url }}/actions/runs/${{ github.run_id }}|构建日志>',
+                fields: [{
+                  title: 'Compare URL',
+                  value: '${{ github.event.compare }}',
+                }]
+              }]
+            }
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.CI_DEPLOY_WEBHOOK }}
