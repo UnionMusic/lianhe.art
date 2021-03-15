@@ -26,10 +26,20 @@
         "projectManagement",
         "review"
       ]
+    },
+    {
+      "login": "LemomZhang",
+      "name": "lemom",
+      "avatar_url": "https://avatars.githubusercontent.com/u/38024395?v=4",
+      "profile": "https://github.com/LemomZhang",
+      "contributions": [
+        "code",
+        "maintenance"
+      ]
     }
   ],
   "contributorsPerLine": 7,
-  "projectName": "Uni-DRMF",
+  "projectName": "lianhe.art",
   "projectOwner": "UnionMusic",
   "repoType": "github",
   "repoHost": "https://github.com",
