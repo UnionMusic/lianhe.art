@@ -1,0 +1,55 @@
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap:2em;
+  padding: 2em 4em;
+  .link{
+    font-size: 1.6rem;
+    letter-spacing: 4px;
+    text-decoration: none;
+    color: #041b37;
+  }
+  .color{
+    background: black;
+  }
+}
+
+.choose_title_1{
+  font-size: 6rem;
+  font-weight: bolder;
+  color: #b3d9ff;
+}
+
+.choose_title_2{
+  font-size: 3.6rem;
+  font-weight: 400;
+  color: #b3d9ff;
+  margin-bottom: 4em;
+}
+
+.join_button{
+  font-size: 3rem;
+  padding: .2em;
+  position:relative;
+  text-decoration:none;
+  background-image:
+          linear-gradient(to top, #FFF 50%, #FFF 50%),
+          linear-gradient(to top, #375689 50%, transparent 50%);
+
+  -webkit-background-clip: text,padding-box;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  background-size: 100% 200%;
+  background-position: top;
+  transition: background-position 0.5s ease-in-out;
+}
+
+.join_button:hover{
+  background-position: bottom;
+}
+
+ul li{
+  color: #b3d9ff;
+  padding-bottom: 2em;
+}

@@ -18,26 +18,29 @@
     ]
   },
   "devDependencies": {
+    "@improv/preact-responsive": "^0.10.1",
     "enzyme": "^3.10.0",
     "enzyme-adapter-preact-pure": "^2.0.0",
     "eslint": "^6.0.1",
     "eslint-config-preact": "^1.1.0",
     "jest": "^24.9.0",
     "jest-preset-preact": "^1.0.0",
-    "node-sass": "^5.0.0",
     "preact-cli": "^3.0.0",
     "prettier": "^2.2.1",
-    "sass-loader": "^10.1.1",
     "sirv-cli": "1.0.3",
     "stylelint": "^13.12.0",
     "stylelint-config-recommended": "^4.0.0",
-    "stylelint-config-standard": "^21.0.0"
+    "stylelint-config-standard": "^21.0.0",
+    "typescript-plugin-css-modules": "^3.2.0"
   },
   "dependencies": {
-    "fibers": "^5.0.0",
+    "@egjs/flicking-plugins": "^3.3.0",
+    "@egjs/preact-flicking": "^3.1.0",
+    "node-sass": "^5.0.0",
     "preact": "^10.3.2",
     "preact-render-to-string": "^5.1.4",
-    "preact-router": "^3.2.1"
+    "preact-router": "^3.2.1",
+    "sass-loader": "^10.1.1"
   },
   "jest": {
     "preset": "jest-preset-preact",

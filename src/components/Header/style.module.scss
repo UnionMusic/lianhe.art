@@ -1,0 +1,32 @@
+ .header {
+    display: flex;
+    padding: 2em 4em;
+    align-items: center;
+    >span{
+      flex: 1;
+      font-size:3rem;
+      font-weight:bold;
+      font-style:italic;
+    }
+    nav{
+      float: right;
+      font-size: 2rem;
+      font-weight: 200;
+      a{
+        padding:1em;
+        text-decoration:none;
+        background-image:
+          linear-gradient(to top, #FFF 50%, #FFF 50%),
+          linear-gradient(to top, #214FD4 50%, transparent 50%);
+        -webkit-background-clip: text,padding-box;
+        -webkit-text-fill-color: transparent;
+        color: transparent;
+        background-size: 100% 200%;
+        background-position: top;
+        transition: background-position 0.5s ease-in-out;
+      }
+      a:hover{
+        background-position: bottom;
+      }
+    }
+  }
