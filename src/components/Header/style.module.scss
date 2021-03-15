@@ -1,6 +1,6 @@
  .header {
     display: flex;
-    padding: 2em 4em;
+    padding: 2em 40em;
     align-items: center;
     >span{
       flex: 1;
@@ -10,7 +10,7 @@
     }
     nav{
       float: right;
-      font-size: 2rem;
+      font-size: 1.4rem;
       font-weight: 200;
       a{
         padding:1em;
@@ -29,4 +29,9 @@
         background-position: bottom;
       }
     }
-  }
+   }
+
+ .header_1200{
+   @extend .header;
+   padding: 4em 10em;
+ }
