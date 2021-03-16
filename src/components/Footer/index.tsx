@@ -1,14 +1,14 @@
-import style from "./style.module.scss";
+import style from "./style.scss";
+import '../../style/index.scss'
 import { Link } from "preact-router/match";
-import { h } from 'preact'
-import douyin from '../../assets/images/douyin.png'
-import weixin from '../../assets/images/weixin.png'
-import weibo from '../../assets/images/weibo.png'
-import github from '../../assets/images/github.png'
+import { h } from "preact";
+import {useContext} from "preact/hooks";
+import {ResponsiveContext} from "../app";
 
 const Footer = () => {
+  const responsive = useContext(ResponsiveContext)
   return (
-    <div className={style.footer}>
+    <div className={responsive?style.footer_1440:style.footer}>
       <div style={{ display: "flex", flexDirection: "column" }}>
         <div
           style={{
@@ -26,7 +26,16 @@ const Footer = () => {
           <div>京ICP备17045054号-10</div>
         </div>
       </div>
-      <div style={{ display:"flex",justifyContent:"center",alignItems:"center",gap:".6em",marginBottom: "2em",flexBasis:"auto"}}>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          gap: ".6em",
+          marginBottom: "2em",
+          flexBasis: "auto",
+        }}
+      >
         <Link class={style.link} href="/">
           关于我们
         </Link>
@@ -47,19 +56,19 @@ const Footer = () => {
           侵权投诉
         </Link>
       </div>
-      <div style={{ marginBottom: "40px", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-        <div>
-            <img src={douyin} />
-        </div>
-        <div style={{margin:"0 1em"}}>
-            <img src={weixin} />
-        </div>
-        <div>
-            <img src={weibo} />
-        </div>
-        <div style={{margin:"0 8em 0 1em"}}>
-            <img src={github} style={{maxHeight:"48px"}} />
-        </div>
+      <div style={{ marginBottom: "2em", display: "flex", justifyContent: "space-between", alignItems: "center",gap:"2em" }}>
+        <svg class="icon" aria-hidden="true" style={{color:"#041b37"}}>
+          <use xlinkHref="#unidouyin1"></use>
+        </svg>
+        <svg class="icon" aria-hidden="true" style={{color:"#041b37"}}>
+          <use xlinkHref="#uniweixin1"></use>
+        </svg>
+        <svg class="icon" aria-hidden="true" style={{color:"#041b37"}}>
+          <use xlinkHref="#uniweibo"></use>
+        </svg>
+        <svg class="icon" aria-hidden="true" style={{color:"#041b37",width:"2.5em",height:"2.5em"}}>
+          <use xlinkHref="#unigithub"></use>
+        </svg>
       </div>
     </div>
   );

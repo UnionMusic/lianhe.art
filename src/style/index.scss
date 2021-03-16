@@ -23,11 +23,6 @@ html, body {
 	box-sizing: border-box;
 }
 
-#app {
-  margin-inline: auto;
-  height: 100%;
-}
-
 img{
   display: block;
   max-width: 100%;
@@ -43,4 +38,12 @@ ul,li{
 	font-weight: 800;
 	text-align: center;
 	color: #A7DAFF;
+}
+
+.icon {
+  width: 3em;
+  height: 3em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
 }
