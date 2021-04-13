@@ -1,13 +1,12 @@
-import React from 'react';
-import 'tailwindcss/tailwind.css';
+import React from 'react'
+import 'tailwindcss/tailwind.css'
 
 interface Props {
-  Component: string;
-  pageProps: {};
+  Component: string
 }
 
-const App: React.FC<Props> = ({ Component, pageProps }) => {
-  return <Component {...pageProps} />;
-};
+const App: React.FC<Props> = ({ Component }) => {
+  return <Component />
+}
 
-export default App;
+export default App
