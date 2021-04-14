@@ -16,7 +16,7 @@ const Layout: React.FC<Props> = ({ children, title = 'This is the default title'
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     </Head>
     <Header />
-    <div className="max-w-screen-lg h-full mx-auto my-0 px-8">{children}</div>
+    <div className="max-w-screen-lg h-full mx-auto my-0 py-12">{children}</div>
     <Footer />
   </div>
 )
