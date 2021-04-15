@@ -2,20 +2,20 @@ import React from 'react'
 
 const Footer: React.FC = () => {
   return (
-    <div className="px-8 bg-gray-200 relative">
-      <div className="flex items-center relative max-w-screen-lg mx-auto my-0 py-8 main">
-        <div className="border-8">
-          <div className="font-semibold text-2xl">CHOOSE US</div>
+    <div className="px-8 mt-40 bg-header relative">
+      <div className="flex items-center relative max-w-screen-lg 2xl:max-w-screen-2xl mx-auto my-0 py-8 main">
+        <div className="pb-16">
+          <div className="font-semibold text-6xl">CHOOSE US</div>
           <div className="font-extralight my-8">NEW DIGITAL RIGHTS MANAGEMENT</div>
           <div className="font-light">全新数字版权管理平台，为你提供数字</div>
           <div className="font-light">监控平台出品以及版税收益等一切服务</div>
           <div className="font-light my-8">是一家服务 | 个人 | 数据为一体的平台</div>
-          <button className="px-8 py-2 text-xl transition duration-700 ease-in-out rounded text-white bg-primary hover:bg-opacity-80 center">
+          <button className="px-8 py-2 font-light text-xl transition duration-700 ease-in-out rounded text-white bg-primary hover:bg-opacity-80 center">
             选择我们
           </button>
         </div>
 
-        <div className="flex flex-col px-4 py-36 bg-primary max-w-screen-lg w-80 absolute right-0 bottom-0 ml-auto respon">
+        <div className="flex flex-col px-4 py-48 bg-primary max-w-screen-lg w-80 absolute right-0 bottom-0 ml-auto respon">
           <div className="italic font-bold text-white mb-4 text-right center">LIANHEART</div>
           <div className="font-light text-sm text-white text-right center">
             © 2017 - 2020 UNIONMUSIC ALL RIGHTS RESERVED.

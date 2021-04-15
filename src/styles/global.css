@@ -3,9 +3,14 @@ img {
 }
 
 html,
-body,
-body > div:first-child,
-#__next,
-#__next > div:first-child {
+body {
   height: 100%;
+}
+
+.icon {
+  width: 3em;
+  height: 3em;
+  vertical-align: -0.15em;
+  opacity: 0.4;
+  overflow: hidden;
 }

@@ -5,6 +5,7 @@ module.exports = {
     backgroundColor: (theme) => ({
       ...theme('colors'),
       primary: '#4571FC',
+      header: '#EDEDED',
     }),
   },
   variants: {
