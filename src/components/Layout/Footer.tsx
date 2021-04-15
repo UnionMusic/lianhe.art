@@ -15,22 +15,41 @@ const Footer: React.FC = () => {
           </button>
         </div>
 
-        <div className="flex flex-col px-4 py-48 bg-primary max-w-screen-lg w-80 absolute right-0 bottom-0 ml-auto respon">
-          <div className="italic font-bold text-white mb-4 text-right center">LIANHEART</div>
-          <div className="font-light text-sm text-white text-right center">
+        <div
+          className="flex flex-col bg-primary absolute bottom-0 right-0 max-w-screen-lg respon"
+          style={{ padding: '100px 2%' }}
+        >
+          <div className="italic font-bold text-2xl text-white mb-4 text-right center">
+            LIANHEART
+          </div>
+          <div className="font-light text-lg text-white text-right center">
             © 2017 - 2020 UNIONMUSIC ALL RIGHTS RESERVED.
           </div>
-          <div className="font-light text-sm text-white text-right center">
+          <div className="font-light text-lg text-white text-right center">
             京ICP备17045054号-10
           </div>
-          <div className="flex justify-end font-light text-white text-sm mt-4 center">
+          <div className="flex justify-end font-light text-white text-lg mt-4 center">
             <div className="mr-4">关于我们</div>
             <div>开放资源</div>
           </div>
-          <div className="flex justify-end font-light text-white text-sm center">
+          <div className="flex justify-end font-light text-white text-lg center">
             <div>用户协议</div>
             <div className="mx-4">隐私协议</div>
             <div>侵权投诉</div>
+          </div>
+          <div className="flex justify-end items-center space-x-4" style={{ marginTop: '14%' }}>
+            <svg className="icon" aria-hidden="true">
+              <use xlinkHref="#unidouyin1" />
+            </svg>
+            <svg className="icon" aria-hidden="true">
+              <use xlinkHref="#uniweixin1" />
+            </svg>
+            <svg className="icon" aria-hidden="true">
+              <use xlinkHref="#uniweibo" />
+            </svg>
+            <svg className="icon" aria-hidden="true" style={{ fontSize: '13px' }}>
+              <use xlinkHref="#unigithub" />
+            </svg>
           </div>
         </div>
       </div>
@@ -50,7 +69,7 @@ const Footer: React.FC = () => {
           }
           .center {
             margin: 0.2rem auto;
-            font-size: 12px;
+            font-size: 20px;
           }
         }
       `}</style>

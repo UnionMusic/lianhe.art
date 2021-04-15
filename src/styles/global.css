@@ -5,6 +5,7 @@ img {
 html,
 body {
   height: 100%;
+  font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 .icon {
