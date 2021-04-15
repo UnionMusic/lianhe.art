@@ -18,8 +18,10 @@ const IndexPage: NextPage = () => (
           <div className="mb-10 mt-4 2xl:mb-24 font-thin text-xl 2xl:text-2xl">
             DIGITAL RIGHTS MANAGEMENT PLATFORM
           </div>
-          <p className="font-light text-xl 2xl:text-2xl">提供企业/个人一站式版权管理</p>
-          <p className="font-light text-xl 2xl:text-2xl">发行 | 结算服务</p>
+          <p className="font-light text-xl 2xl:text-2xl tracking-widest">
+            提供企业 / 个人一站式版权管理
+          </p>
+          <p className="font-light mt-4 text-xl 2xl:text-2xl tracking-widest">发行 | 结算服务</p>
           <button className="mt-24 font-light text-xl px-8 py-2 transition duration-700 ease-in-out rounded text-white bg-primary hover:bg-opacity-80 center">
             选择我们
           </button>

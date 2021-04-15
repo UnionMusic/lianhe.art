@@ -3,7 +3,7 @@ import React from 'react'
 const Footer: React.FC = () => {
   return (
     <div className="px-8 mt-40 bg-header relative">
-      <div className="flex items-center relative max-w-screen-lg 2xl:max-w-screen-2xl mx-auto my-0 py-8 main">
+      <div className="flex items-center relative max-w-screen-lg mx-auto my-0 py-8 main">
         <div className="pb-16">
           <div className="font-semibold text-6xl">CHOOSE US</div>
           <div className="font-extralight my-8">NEW DIGITAL RIGHTS MANAGEMENT</div>
