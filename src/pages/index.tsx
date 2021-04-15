@@ -72,10 +72,10 @@ const IndexPage: NextPage = () => (
     </div>
 
     <div className="flex flex-col">
-      <div className="text-xl bg-primary text-white px-8 py-2 mt-16 mx-auto">WHAT WE CAN DO</div>
+      <div className="text-xl bg-primary text-white px-8 py-2 mt-40 mx-auto">我们能做什么</div>
       <div className="flex items-center">
         <div>
-          <Image src="/imgs/content1.svg" alt="Picture of the author" width={400} height={400} />
+          <Image src="/imgs/content1.svg" alt="Picture of the author" width={500} height={500} />
         </div>
         <div className="ml-auto w-2/5">
           <p className="font-medium text-2xl mb-4">数字版权管理</p>
@@ -94,12 +94,12 @@ const IndexPage: NextPage = () => (
           </p>
         </div>
         <div className="ml-auto">
-          <Image src="/imgs/content2.svg" alt="Picture of the author" width={400} height={400} />
+          <Image src="/imgs/content2.svg" alt="Picture of the author" width={500} height={500} />
         </div>
       </div>
       <div className="flex items-center">
         <div>
-          <Image src="/imgs/content3.svg" alt="Picture of the author" width={400} height={400} />
+          <Image src="/imgs/content3.svg" alt="Picture of the author" width={500} height={500} />
         </div>
         <div className="ml-auto w-2/5">
           <p className="text font-medium text-2xl mb-4">数字版权管理</p>
