@@ -36,11 +36,6 @@ const Header: React.FC = () => {
             margin-left: auto;
             background-clip: content-box;
           }
-          .menu {
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-          }
         }
       `}</style>
     </div>

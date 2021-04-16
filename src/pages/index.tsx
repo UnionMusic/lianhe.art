@@ -15,15 +15,18 @@ const IndexPage: NextPage = () => (
       <div className="flex flex-col" style={{ marginTop: '6%' }}>
         <div className="flex items-center">
           <div>
-            <p className="font-semibold text-4xl 2xl:text-7xl mt-12">数字版权管理平台</p>
-            <div className="mb-10 mt-4 2xl:mb-24 font-thin text-xl 2xl:text-2xl">
-              DIGITAL RIGHTS MANAGEMENT PLATFORM
+            <div className="primaryColor font-semibold text-4xl 2xl:text-7xl tracking-wider">
+              更快更好更安全
             </div>
-            <p className="font-light text-xl 2xl:text-2xl tracking-widest">
-              提供企业 / 个人一站式版权管理
+            <p className="font-light mt-12 2xl:mt-24 tracking-wider text-2xl 2xl:text-3xl">
+              数字版权管理平台
             </p>
-            <p className="font-light mt-4 text-xl 2xl:text-2xl tracking-widest">发行 | 结算服务</p>
-            <button className="mt-10 font-light text-xl px-8 py-2 transition duration-700 ease-in-out rounded text-white bg-primary hover:bg-opacity-80 center">
+            <div className="mb-10 font-thin">DIGITAL RIGHTS MANAGEMENT PLATFORM</div>
+            <p className="font-light text-2xl tracking-wider">提供企业 / 个人一站式版权管理</p>
+            <p className="font-light mt-2 mb-8 2xl:mb-24 text-xl 2xl:text-2xl tracking-wider">
+              发行 | 结算服务
+            </p>
+            <button className="primaryColor font-medium hover:text-opacity-30 border-2 hover:border-opacity-30 focus:outline-none border-primary mt-10 font-light text-xl px-12 py-2 transition duration-700 ease-in-out rounded-3xl">
               选择我们
             </button>
           </div>
@@ -75,7 +78,7 @@ const IndexPage: NextPage = () => (
       </div>
 
       <div className="flex flex-col">
-        <div className="text-xl bg-primary text-white px-8 py-2 mt-40 mx-auto">我们能做什么</div>
+        <div className="text-3xl bg-primary text-white px-24 py-4 mt-40 mx-auto">我们能做什么</div>
         <div className="flex items-center">
           <div>
             <Image src="/imgs/content1.svg" alt="Picture of the author" width={500} height={500} />
