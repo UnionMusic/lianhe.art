@@ -9,6 +9,9 @@
     "start": "next start",
     "type-check": "tsc",
     "serve": "sirv build --port 8080 --cors --single",
+    "deploy": "cloudbase framework deploy",
+    "deploy:client": "cloudbase framework deploy client",
+    "deploy:server": "cloudbase framework deploy server",
     "lint": "eslint '*/**/*.{js,ts,tsx}' --quiet",
     "lint:style": "npx stylelint '**/*.{css,scss}'"
   },
