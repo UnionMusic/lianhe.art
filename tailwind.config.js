@@ -7,6 +7,9 @@ module.exports = {
       primary: '#4571FC',
       header: '#EDEDED',
     }),
+    borderColor: (theme) => ({
+      primary: '#4571FC',
+    }),
   },
   variants: {
     extend: {},

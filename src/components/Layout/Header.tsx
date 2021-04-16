@@ -4,7 +4,7 @@ import Link from 'next/link'
 const Header: React.FC = () => {
   return (
     <div className="py-4 px-8 bg-header">
-      <div className="flex items-center max-w-screen-lg 2xl:max-w-screen-2xl maxWidth mx-auto my-0 menu">
+      <div className="flex items-center max-w-screen-lg 2xl:max-w-screen-2xl mx-auto my-0 menu">
         <div className="italic font-bold text-xl bott">LIANHEART</div>
         <div className="ml-auto">
           <Link href="/">
@@ -35,11 +35,6 @@ const Header: React.FC = () => {
             padding: 5px 0;
             margin-left: auto;
             background-clip: content-box;
-          }
-          .menu {
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
           }
         }
       `}</style>

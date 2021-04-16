@@ -5,6 +5,7 @@ img {
 html,
 body {
   height: 100%;
+  font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 .icon {
@@ -13,4 +14,40 @@ body {
   vertical-align: -0.15em;
   opacity: 0.4;
   overflow: hidden;
+}
+
+@media (min-width: 960px) and (max-width: 1200px) {
+  html {
+    zoom: 80%;
+  }
+
+  @-ms-viewport { width: 1200px; }
+}
+
+@media (min-width: 768px) and (max-width: 960px) {
+  html {
+    zoom: 60%;
+  }
+
+  @-ms-viewport { width: 960px; }
+}
+
+@media (min-width: 450px) and (max-width: 768px) {
+  html {
+    zoom: 50%;
+  }
+
+  @-ms-viewport { width: 768px; }
+}
+
+@media (min-width: 200px) and (max-width: 450px) {
+  html {
+    zoom: 50%;
+  }
+
+  @-ms-viewport { width: 200px; }
+}
+
+.primaryColor {
+  color: #4571fc;
 }
