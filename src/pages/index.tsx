@@ -20,14 +20,14 @@ const IndexPage: NextPage = () => (
               <div className="primaryColor font-semibold text-4xl 2xl:text-7xl tracking-wider">
                 更快更好更安全
               </div>
+              <p className="font-light mt-12 2xl:mt-24 text-xl 2xl:text-3xl">数字版权管理平台</p>
+              <div className="mb-10 font-light">DIGITAL RIGHTS MANAGEMENT PLATFORM</div>
+              <p className="font-light text-xl 2xl:text-3xl">提供企业 / 个人一站式版权管理</p>
+              <p className="font-light mb-16 text-xl 2xl:text-3xl">发行 | 结算服务</p>
+              <button className="primaryColor text-lg font-medium border-2 hover:border-opacity-30 focus:outline-none border-primary px-10 py-1 transition duration-700 ease-in-out rounded-3xl">
+                免费使用
+              </button>
             </Fade>
-            <p className="font-light mt-12 2xl:mt-24 text-xl 2xl:text-3xl">数字版权管理平台</p>
-            <div className="mb-10 font-light">DIGITAL RIGHTS MANAGEMENT PLATFORM</div>
-            <p className="font-light text-xl 2xl:text-3xl">提供企业 / 个人一站式版权管理</p>
-            <p className="font-light mb-8 text-xl 2xl:text-3xl">发行 | 结算服务</p>
-            <button className="primaryColor font-medium border-2 hover:border-opacity-30 focus:outline-none border-primary px-12 py-2 transition duration-700 ease-in-out rounded-3xl">
-              免费使用
-            </button>
           </div>
           <div className="ml-auto w-2/5 2xl:w-3/6">
             <img src="/imgs/index.png" alt={''} />
@@ -76,7 +76,11 @@ const IndexPage: NextPage = () => (
         </div>
       </div>
       <div className="flex flex-col">
-        <div className="text-3xl bg-primary text-white px-24 py-4 mt-40 mx-auto">我们能做什么</div>
+        <Fade left cascade>
+          <div className="text-3xl bg-primary text-white px-24 py-4 mt-40 mx-auto">
+            我们能做什么
+          </div>
+        </Fade>
         <Slide left cascade>
           <div className="flex items-center">
             <div>

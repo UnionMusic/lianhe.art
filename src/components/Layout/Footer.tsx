@@ -8,14 +8,14 @@ const Footer: React.FC = () => {
         <div className="pb-16">
           <Fade left cascade>
             <div className="font-semibold text-3xl 2xl:text-6xl">CHOOSE US</div>
+            <div className="font-thin my-8">NEW DIGITAL RIGHTS MANAGEMENT</div>
+            <div className="font-light text-xl">全新数字版权管理平台，为你提供数字</div>
+            <div className="font-light text-xl">监控平台出品以及版税收益等一切服务</div>
+            <div className="font-light text-xl my-8">是一家服务 | 个人 | 数据为一体的平台</div>
+            <button className="primaryColor text-lg font-medium hover:text-opacity-30 border-2 hover:border-opacity-30 focus:outline-none border-primary px-10 py-1 transition duration-700 ease-in-out rounded-3xl">
+              关于我们
+            </button>
           </Fade>
-          <div className="font-thin my-8">NEW DIGITAL RIGHTS MANAGEMENT</div>
-          <div className="font-light text-xl">全新数字版权管理平台，为你提供数字</div>
-          <div className="font-light text-xl">监控平台出品以及版税收益等一切服务</div>
-          <div className="font-light text-xl my-8">是一家服务 | 个人 | 数据为一体的平台</div>
-          <button className="primaryColor font-medium hover:text-opacity-30 border-2 hover:border-opacity-30 focus:outline-none border-primary px-12 py-2 transition duration-700 ease-in-out rounded-3xl">
-            关于我们
-          </button>
         </div>
 
         <div
