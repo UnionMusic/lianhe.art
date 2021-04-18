@@ -3,17 +3,22 @@ import Link from 'next/link'
 
 const Header: React.FC = () => {
   return (
-    <div className="py-4 px-8 bg-header">
-      <div className="flex items-center max-w-screen-lg 2xl:max-w-screen-2xl mx-auto my-0 menu">
-        <div className="italic font-bold text-xl bott">LIANHEART</div>
-        <div className="ml-auto">
+    <div className="py-4 px-8 relative">
+      <div className="flex justify-between items-center max-w-screen-lg 2xl:max-w-screen-2xl mx-auto my-0 menu">
+        <div className="italic font-bold text-xl">LIANHEART</div>
+        <div className="space-x-8 text-lg">
+          <Link href="/">
+            <a className="font-light transition duration-500 ease-in-out hover:text-blue-500 hover:border-b-4">
+              首页
+            </a>
+          </Link>
           <Link href="/">
             <a className="font-light transition duration-500 ease-in-out hover:text-blue-500">
               帮助中心
             </a>
           </Link>
           <Link href="/about">
-            <a className="mx-8 font-light transition duration-500 ease-in-out hover:text-blue-500">
+            <a className="font-light transition duration-500 ease-in-out hover:text-blue-500">
               联系我们
             </a>
           </Link>
@@ -23,6 +28,9 @@ const Header: React.FC = () => {
             </a>
           </Link>
         </div>
+      </div>
+      <div className="absolute top-0 left-0 transform rotate-180" style={{ zIndex: -1 }}>
+        <img src="/imgs/bg.png" alt="" />
       </div>
       <style jsx>{`
         @media (min-device-width: 200px) and (max-width: 480px) {
