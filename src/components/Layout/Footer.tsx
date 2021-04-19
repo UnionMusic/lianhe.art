@@ -3,8 +3,8 @@ import { Fade } from 'react-reveal'
 
 const Footer: React.FC = () => {
   return (
-    <div className="px-8 mt-40 bg-footer-texture bg-cover bg-no-repeat bg-center">
-      <div className="flex items-center justify-between relative max-w-screen-lg mx-auto my-0 py-8">
+    <div className="px-8 mt-40">
+      <div className="flex justify-between items-center mx-auto max-w-screen-lg">
         <div className="pb-16">
           <Fade left cascade>
             <div className="font-semibold text-3xl 2xl:text-6xl">CHOOSE US</div>
@@ -18,10 +18,7 @@ const Footer: React.FC = () => {
           </Fade>
         </div>
 
-        <div
-          className="flex flex-col bg-primary absolute right-0 bottom-0 respon"
-          style={{ padding: '110px 2%' }}
-        >
+        <div className="flex flex-col bg-primary w-5/12 px-6 py-32 respon">
           <div className="font-light text-white text-right center">
             © 2017 - 2020 UNIONMUSIC ALL RIGHTS RESERVED.
           </div>
@@ -36,16 +33,16 @@ const Footer: React.FC = () => {
             <div>侵权投诉</div>
           </div>
           <div className="flex justify-end items-center space-x-4" style={{ marginTop: '14%' }}>
-            <svg className="icon" aria-hidden="true">
+            <svg className="icon" aria-hidden="true" style={{ fontSize: '12px' }}>
               <use xlinkHref="#unidouyin1" />
             </svg>
-            <svg className="icon" aria-hidden="true">
+            <svg className="icon" aria-hidden="true" style={{ fontSize: '12px' }}>
               <use xlinkHref="#uniweixin1" />
             </svg>
-            <svg className="icon" aria-hidden="true">
+            <svg className="icon" aria-hidden="true" style={{ fontSize: '12px' }}>
               <use xlinkHref="#uniweibo" />
             </svg>
-            <svg className="icon" aria-hidden="true" style={{ fontSize: '13px' }}>
+            <svg className="icon" aria-hidden="true" style={{ fontSize: '10px' }}>
               <use xlinkHref="#unigithub" />
             </svg>
           </div>
