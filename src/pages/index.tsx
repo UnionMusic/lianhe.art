@@ -3,10 +3,10 @@ import { NextPage } from 'next'
 import Image from 'next/image'
 import Head from 'next/head'
 import React from 'react'
-import { Fade, Slide } from 'react-reveal'
+import { Fade } from 'react-reveal'
 
 const IndexPage: NextPage = () => (
-  <Layout title="Home | Next.js + TypeScript Example">
+  <Layout title="联合互娱">
     <Head>
       <title>联合互娱</title>
       <script type="text/javascript" src="//at.alicdn.com/t/font_1831659_whzw0a9tkug.js" />
@@ -24,8 +24,8 @@ const IndexPage: NextPage = () => (
               <div className="mb-10 font-light">DIGITAL RIGHTS MANAGEMENT PLATFORM</div>
               <p className="font-light text-xl 2xl:text-3xl">提供企业 / 个人一站式版权管理</p>
               <p className="font-light mb-16 text-xl 2xl:text-3xl">发行 | 结算服务</p>
-              <button className="primaryColor text-lg font-medium border-2 hover:border-opacity-30 focus:outline-none border-primary px-10 py-1 transition duration-700 ease-in-out rounded-3xl">
-                免费使用
+              <button className="primaryColor text-xl font-medium border-2 hover:border-opacity-30 focus:outline-none border-primary px-10 py-1 transition duration-700 ease-in-out rounded-3xl">
+                免费试用
               </button>
             </Fade>
           </div>
@@ -77,11 +77,11 @@ const IndexPage: NextPage = () => (
       </div>
       <div className="flex flex-col">
         <Fade left cascade>
-          <div className="text-3xl bg-primary text-white px-24 py-4 mt-40 mx-auto">
+          <div className="text-xl 2xl:text-3xl bg-primary text-white px-24 py-4 mt-40 mx-auto">
             我们能做什么
           </div>
         </Fade>
-        <Slide left cascade>
+        <Fade left>
           <div className="flex items-center">
             <div>
               <Image
@@ -133,7 +133,7 @@ const IndexPage: NextPage = () => (
               </p>
             </div>
           </div>
-        </Slide>
+        </Fade>
       </div>
     </div>
   </Layout>

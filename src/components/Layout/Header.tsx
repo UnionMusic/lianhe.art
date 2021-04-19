@@ -30,7 +30,7 @@ const Header: React.FC = () => {
         </div>
       </div>
       <div className="absolute top-0 left-0 transform rotate-180" style={{ zIndex: -1 }}>
-        <img src="/imgs/bg.png" alt="" />
+        <img src="/imgs/bg.png" alt="" style={{ width: '100vw' }} />
       </div>
       <style jsx>{`
         .active {
