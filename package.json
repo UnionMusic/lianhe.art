@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "next",
-    "build": "next build",
+    "build": "next build --profile",
     "start": "next start",
     "type-check": "tsc",
     "serve": "sirv build --port 8080 --cors --single",
