@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "envId": "next-lianhe-art-1g40cnpf8ffa72b0",
+  "envId": "{{envId}}",
   "$schema": "https://framework-1258016615.tcloudbaseapp.com/schema/latest.json",
   "framework": {
     "name": "next-ssr",
