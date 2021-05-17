@@ -12,7 +12,7 @@
     "deploy": "cloudbase framework deploy",
     "deploy:client": "cloudbase framework deploy client",
     "deploy:server": "cloudbase framework deploy server",
-    "lint": "eslint '*/**/*.{js,ts,tsx}' --quiet",
+    "lint": "eslint 'src/**/*.{js,ts,tsx}' --quiet",
     "lint:style": "npx stylelint '**/*.{css,scss}'"
   },
   "dependencies": {
