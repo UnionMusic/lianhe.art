@@ -10,6 +10,12 @@ module.exports = {
     borderColor: (theme) => ({
       primary: '#4571FC',
     }),
+    extend: {
+      backgroundImage: (theme) => ({
+        'footer-texture': "url('/imgs/bg.png')",
+      }),
+      borderWidth: ['hover', 'focus'],
+    },
   },
   variants: {
     extend: {},
