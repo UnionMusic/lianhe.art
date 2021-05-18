@@ -231,3 +231,42 @@ jobs:
                 ]
               }
             ]
+
+  cdn:
+    runs-on: ubuntu-latest
+    needs:
+      - deploy
+    strategy:
+      matrix:
+        node: [ '14' ]
+
+    name: Publish to  CDN
+    steps:
+      - name: Checkout Latest Stable Version
+        if: ${{ github.event.inputs.version }} == 'latest'
+        uses: actions/checkout@v2.3.4
+
+      - name: Checkout ${{ github.event.inputs.version }}
+        if: github.event.inputs.version != 'latest'
+        uses: actions/checkout@v2.3.4
+        with:
+          ref: ${{ github.event.inputs.version }}
+
+      - name: Setup Node ${{ matrix.node }}
+        uses: actions/setup-node@v2.1.5
+        with:
+          node-version: ${{ matrix.node }}
+
+      - name: Setup Serverless
+        uses: teakowa/setup-serverless@main
+        with:
+          provider: tencent
+        env:
+          TENCENT_APPID: ${{ secrets.TENCENTCLOUD_APP_ID }}
+          TENCENT_SECRET_ID: ${{ secrets.TENCENTCLOUD_SECRET_ID }}
+          TENCENT_SECRET_KEY: ${{ secrets.TENCENTCLOUD_SECRET_KEY}}
+          SERVERLESS_PLATFORM_VENDOR: tencent
+
+      - name: Refresh CDN
+        run: sls deploy
+        working-directory: ./cdn
