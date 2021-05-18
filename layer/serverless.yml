@@ -1,0 +1,13 @@
+app: lianheart
+stage: prod
+component: layer
+name:  layer
+
+inputs:
+  region: ap-shanghai
+  name: ${app}-${name}
+  src:
+    src: ../node_modules
+    targetDir: /node_modules
+  runtimes:
+    - Nodejs12.16
