@@ -36,6 +36,7 @@ inputs:
         STATIC_URL: https://static.lianhe.art
         NODE_ENV: production
   apigatewayConf:
+    name: ${app}_${name}
     protocols:
       - https
     environment: release
