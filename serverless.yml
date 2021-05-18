@@ -1,20 +1,19 @@
-# serverless.yml
-
-component: cdn
-name: edge
-app: edge
+app: lianheart
 stage: prod
-org: lianhe
+component: nextjs
+name: website
 
 inputs:
-  area: mainland
-  domain: ${name}.${org}.art
-  origin:
-    origins:
-      - ${org}-art-3gy61clx742a81be-1254054744.tcloudbaseapp.com
-    originPullProtocol: http
-  async: false
-  onlyRefresh: true
-  refreshCdn:
-    urls:
-      - https://${name}.${org}.art
+  src:
+    hook: npm run build
+    dist: ./
+    exclude:
+      - .env
+  region: ap-shanghai
+  functionConf:
+    name: ${app}-${name}
+    runtime: Nodejs12.16
+  apigatewayConf:
+    protocols:
+      - https
+    environment: release
