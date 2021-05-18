@@ -9,10 +9,29 @@ inputs:
     dist: ./
     exclude:
       - .env
+      - 'node_modules/**'
+      - .git**
+      - cloudfunctions
+      - cos
+      - layer
+      - .all-contributorsrc
+      - .editorconfig
+      - .eslintrc.js
+      - .prettierrc
+      - .stylelintrc
+      - cloudbaserc.json
+      - CODEOWNERS
+      - LICENSE*
+      - netlify.toml
+      - README.md
   region: ap-shanghai
   functionConf:
     name: ${app}-${name}
     runtime: Nodejs12.16
+    memorySize: 128
+    environment:
+      variables:
+        STATIC_URL: https://static.lianhe.art
   apigatewayConf:
     protocols:
       - https
@@ -20,3 +39,6 @@ inputs:
   layers:
     - name: ${output:${stage}:${app}:layer.name}
       version: ${output:${stage}:${app}:layer.version}
+  staticConf:
+    cosConf:
+      bucket: ${output:${stage}:${app}:cos.bucket}
