@@ -17,3 +17,6 @@ inputs:
     protocols:
       - https
     environment: release
+  layers:
+    - name: ${output:${stage}:${app}:layer.name}
+      version: ${output:${stage}:${app}:layer.version}
