@@ -11,7 +11,9 @@ inputs:
       - .env
       - 'node_modules/**'
       - .git**
+      - .github
       - cloudfunctions
+      - cdn
       - cos
       - layer
       - .all-contributorsrc
