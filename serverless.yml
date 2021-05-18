@@ -29,9 +29,6 @@ inputs:
     name: ${app}-${name}
     runtime: Nodejs12.16
     memorySize: 128
-    environment:
-      variables:
-        STATIC_URL: https://static.lianhe.art
   apigatewayConf:
     protocols:
       - https
