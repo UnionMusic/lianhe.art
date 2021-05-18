@@ -39,6 +39,3 @@ inputs:
   layers:
     - name: ${output:${stage}:${app}:layer.name}
       version: ${output:${stage}:${app}:layer.version}
-  staticConf:
-    cosConf:
-      bucket: ${output:${stage}:${app}:cos.bucket}
