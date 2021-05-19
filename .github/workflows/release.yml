@@ -54,7 +54,7 @@ jobs:
           HUSKY_SKIP_INSTALL: true
 
       - name: Setup Serverless
-        uses: teakowa/setup-serverless@main
+        uses: teakowa/setup-serverless@v1.1.2
         with:
           provider: tencent
         env:
@@ -121,7 +121,7 @@ jobs:
         run: yarn build
 
       - name: Setup Serverless
-        uses: teakowa/setup-serverless@main
+        uses: teakowa/setup-serverless@v1.1.2
         with:
           provider: tencent
         env:
@@ -188,7 +188,7 @@ jobs:
         run: yarn build
 
       - name: Setup Serverless
-        uses: teakowa/setup-serverless@main
+        uses: teakowa/setup-serverless@v1.1.2
         with:
           provider: tencent
         env:
@@ -275,7 +275,7 @@ jobs:
           node-version: ${{ matrix.node }}
 
       - name: Setup Serverless
-        uses: teakowa/setup-serverless@main
+        uses: teakowa/setup-serverless@v1.1.2
         with:
           provider: tencent
         env:
