@@ -1,13 +1,10 @@
 import React from 'react'
 import 'tailwindcss/tailwind.css'
 import '../styles/global.css'
+import { AppProps } from 'next/app'
 
-interface Props {
-  Component: string
-}
-
-const App: React.FC<Props> = ({ Component }) => {
-  return <Component />
+const App = ({ Component, pageProps }: AppProps) => {
+  return <Component {...pageProps} />
 }
 
 export default App

@@ -83,7 +83,7 @@ const IndexPage: NextPage = () => (
         <Fade left>
           <div className="flex items-center">
             <div>
-              <img src="/imgs/content1.svg" alt="" />
+              <img src="/imgs/content1.svg" style={{ width: '500px' }} alt="" />
             </div>
             <div className="ml-auto w-2/5">
               <p className="font-medium text-2xl mb-4">数字版权管理</p>
@@ -102,12 +102,12 @@ const IndexPage: NextPage = () => (
               </p>
             </div>
             <div className="ml-auto">
-              <img src="/imgs/content2.svg" alt="" />
+              <img src="/imgs/content2.svg" style={{ width: '500px' }} alt="" />
             </div>
           </div>
           <div className="flex items-center">
             <div>
-              <img src="/imgs/content3.svg" alt="" />
+              <img src="/imgs/content3.svg" style={{ width: '500px' }} alt="" />
             </div>
             <div className="ml-auto w-2/5">
               <p className="text font-medium text-2xl mb-4">数字版权管理</p>
