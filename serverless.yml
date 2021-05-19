@@ -43,3 +43,14 @@ inputs:
   layers:
     - name: ${output:${stage}:${app}:layer.name}
       version: ${output:${stage}:${app}:layer.version}
+  staticConf:
+    cosConf:
+      bucket: ${output:${stage}:${app}:cos.bucket}
+      sources:
+      - src: dist/static
+        targetDir: /_next/static
+      - src: public
+        targetDir: /
+    cdnConf:
+      onlyRefresh: true
+      domain: ${output:${stage}:${app}:cdn.domain}
