@@ -1,6 +1,5 @@
 import { Layout } from '../components/Layout'
 import { NextPage } from 'next'
-import Image from 'next/image'
 import Head from 'next/head'
 import React from 'react'
 import { Fade } from 'react-reveal'
@@ -30,7 +29,7 @@ const IndexPage: NextPage = () => (
             </Fade>
           </div>
           <div className="ml-auto w-2/5 2xl:w-3/6">
-            <img src="/imgs/index.png" alt={''} />
+            <img src="/imgs/main.png" alt={''} />
           </div>
         </div>
         <div className="flex justify-between" style={{ marginTop: '14%' }}>
@@ -84,12 +83,7 @@ const IndexPage: NextPage = () => (
         <Fade left>
           <div className="flex items-center">
             <div>
-              <Image
-                src="/imgs/content1.svg"
-                alt="Picture of the author"
-                width={500}
-                height={500}
-              />
+              <img src="/imgs/content1.svg" style={{ width: '500px' }} alt="" />
             </div>
             <div className="ml-auto w-2/5">
               <p className="font-medium text-2xl mb-4">数字版权管理</p>
@@ -108,22 +102,12 @@ const IndexPage: NextPage = () => (
               </p>
             </div>
             <div className="ml-auto">
-              <Image
-                src="/imgs/content2.svg"
-                alt="Picture of the author"
-                width={500}
-                height={500}
-              />
+              <img src="/imgs/content2.svg" style={{ width: '500px' }} alt="" />
             </div>
           </div>
           <div className="flex items-center">
             <div>
-              <Image
-                src="/imgs/content3.svg"
-                alt="Picture of the author"
-                width={500}
-                height={500}
-              />
+              <img src="/imgs/content3.svg" style={{ width: '500px' }} alt="" />
             </div>
             <div className="ml-auto w-2/5">
               <p className="text font-medium text-2xl mb-4">数字版权管理</p>
