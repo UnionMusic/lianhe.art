@@ -20,12 +20,14 @@ inputs:
       - .editorconfig
       - .eslintrc.js
       - .prettierrc
+      - .releaserc
       - .stylelintrc
-      - cloudbaserc.json
+      - CHANGELOG.md
       - CODEOWNERS
       - LICENSE*
       - netlify.toml
       - README.md
+      - serverless.yml
   region: ap-shanghai
   functionConf:
     name: ${app}-${name}
