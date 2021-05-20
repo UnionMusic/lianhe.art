@@ -8,6 +8,7 @@
     "build": "next build --profile",
     "start": "next start",
     "export": "npm run build && next export -o out",
+    "build-stats": "ANALYZE=true npm run build",
     "type-check": "tsc",
     "serve": "sirv build --port 8080 --cors --single",
     "deploy": "cloudbase framework deploy",
@@ -24,6 +25,7 @@
     "react-reveal": "^1.2.2"
   },
   "devDependencies": {
+    "@next/bundle-analyzer": "^10.2.2",
     "@types/node": "^15.3.0",
     "@types/react": "^17.0.5",
     "@types/react-dom": "^17.0.5",
