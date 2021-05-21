@@ -66,5 +66,8 @@
     "*.{css,scss}": [
       "npx stylelint --fix"
     ]
+  },
+  "engines": {
+    "node": ">=14.0.0"
   }
 }
