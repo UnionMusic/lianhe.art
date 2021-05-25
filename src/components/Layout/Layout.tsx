@@ -14,6 +14,8 @@ const Layout: React.FC<Props> = ({ children, title = 'This is the default title'
       <title>{title}</title>
       <meta charSet="utf-8" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      <meta name="msapplication-TileColor" content="#4571FC" />
+      <meta name="theme-color" content="#4571FC" />
     </Head>
     <Header />
     <div className="px-8">{children}</div>
