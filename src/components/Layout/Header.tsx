@@ -21,7 +21,7 @@ const Header: React.FC = () => {
                 联系我们
               </a>
             </Link>
-            <Link href="https://drm.lianhe.art">
+            <Link href="https://www.lianhe.art/login">
               <a className="transition duration-500 ease-in-out hover:text-blue-500 active">
                 登录
               </a>
