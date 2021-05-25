@@ -3,6 +3,15 @@ import { NextPage } from 'next'
 import Head from 'next/head'
 import React from 'react'
 import { Fade } from 'react-reveal'
+import Typed from 'react-typed';
+
+const words = [
+  '?',
+  '简单的',
+  '方便的',
+  '快捷的',
+  'LIANHEART'
+]
 
 const IndexPage: NextPage = () => (
   <Layout title="联合互娱">
@@ -16,13 +25,15 @@ const IndexPage: NextPage = () => (
         <div className="flex items-center">
           <div>
             <Fade left cascade>
-              <div className="primaryColor font-semibold text-4xl 2xl:text-7xl tracking-wider">
-                更快更好更安全
+              <div className="font-semibold text-4xl 2xl:text-7xl my-4 tracking-wider">
+                新一代的全新
               </div>
-              <p className="font-light mt-12 2xl:mt-24 text-xl 2xl:text-3xl">数字版权管理平台</p>
-              <div className="mb-10 font-light">DIGITAL RIGHTS MANAGEMENT PLATFORM</div>
-              <p className="font-light text-xl 2xl:text-3xl">提供企业 / 个人一站式版权管理</p>
-              <p className="font-light mb-16 text-xl 2xl:text-3xl">发行 | 结算服务</p>
+              <div className="primaryColor font-semibold text-4xl 2xl:text-7xl my-4 tracking-wider">
+                数字版权管理平台
+              </div>
+              <div className="font-semibold text-4xl 2xl:text-7xl my-4 tracking-wider">
+                应该是 <span><Typed strings={words} typeSpeed={180} /></span>
+              </div>
               <button className="primaryColor text-xl font-medium border-2 hover:border-opacity-30 focus:outline-none border-primary px-10 py-1 transition duration-700 ease-in-out rounded-3xl">
                 免费试用
               </button>
