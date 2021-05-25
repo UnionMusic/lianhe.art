@@ -7,22 +7,22 @@ const Header: React.FC = () => {
       <div className="flex justify-between items-center max-w-screen-lg 2xl:max-w-screen-2xl mx-auto my-0 menu">
         <div className="italic font-bold text-xl">LIANHEART</div>
         <div className="relative">
-          <div className="space-x-8 text-lg">
+          <div className="space-x-8 text-lg font-normal">
             <Link href="/">
-              <a className="font-light transition duration-200 ease-in-out active">首页</a>
+              <a className="transition duration-200 ease-in-out active">首页</a>
             </Link>
             <Link href="/">
-              <a className="font-light transition duration-500 ease-in-out hover:text-blue-500 active">
+              <a className="transition duration-500 ease-in-out hover:text-blue-500 active">
                 帮助中心
               </a>
             </Link>
             <Link href="/">
-              <a className="font-light transition duration-500 ease-in-out hover:text-blue-500 active">
+              <a className="transition duration-500 ease-in-out hover:text-blue-500 active">
                 联系我们
               </a>
             </Link>
             <Link href="https://drm.lianhe.art">
-              <a className="font-light transition duration-500 ease-in-out hover:text-blue-500 active">
+              <a className="transition duration-500 ease-in-out hover:text-blue-500 active">
                 登录
               </a>
             </Link>
