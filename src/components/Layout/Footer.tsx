@@ -12,9 +12,11 @@ const Footer: React.FC = () => {
             <div className="font-light text-xl">全新一代数字版权管理平台，方便快捷</div>
             <div className="font-light text-xl">提供一站式版权管理、发行与结算服务</div>
             <div className="font-light text-xl my-8"></div>
-            <button className="primaryColor text-xl font-medium hover:text-opacity-30 border-2 hover:border-opacity-30 focus:outline-none border-primary px-10 py-1 transition duration-700 ease-in-out rounded-3xl">
-              关于我们
-            </button>
+            <Link href="/contact">
+              <button className="primaryColor text-xl font-medium hover:text-opacity-30 border-2 hover:border-opacity-30 focus:outline-none border-primary px-10 py-1 transition duration-700 ease-in-out rounded-3xl">
+                联系我们
+              </button>
+            </Link>
           </Fade>
         </div>
 
