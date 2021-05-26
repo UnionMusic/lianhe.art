@@ -45,43 +45,43 @@ const IndexPage: NextPage = () => (
         </div>
         <div className="flex justify-between" style={{ marginTop: '14%' }}>
           <svg className="icon" aria-hidden="true">
-            <use xlinkHref="#uniQQyinle" />
+            <use xlinkHref="#uni-qqmusic" />
           </svg>
           <svg className="icon" aria-hidden="true">
-            <use xlinkHref="#unikugouyinle"></use>
+            <use xlinkHref='#uni-kugou'/>
           </svg>
           <svg className="icon" aria-hidden="true">
-            <use xlinkHref="#unikuwoyinle1"></use>
+            <use xlinkHref='#uni-kuwo'/>
           </svg>
           <svg className="icon" aria-hidden="true">
-            <use xlinkHref="#uniqiepian"></use>
+            <use xlinkHref='#uni-netease'/>
           </svg>
           <svg className="icon" aria-hidden="true">
-            <use xlinkHref="#unispotify"></use>
+            <use xlinkHref='#uni-spotify'/>
           </svg>
           <svg className="icon" aria-hidden="true">
-            <use xlinkHref="#uniicon-diy-logo"></use>
+            <use xlinkHref='#uni-google-play'/>
           </svg>
           <svg className="icon" aria-hidden="true">
-            <use xlinkHref="#uniquanminKge"></use>
+            <use xlinkHref='#uni-quanminKge'/>
           </svg>
           <svg className="icon" aria-hidden="true">
-            <use xlinkHref="#uniapple"></use>
+            <use xlinkHref='#uni-apple'/>
           </svg>
           <svg className="icon" aria-hidden="true">
-            <use xlinkHref="#uni1111-01"></use>
+            <use xlinkHref='#uni-5sing'/>
           </svg>
           <svg className="icon" aria-hidden="true">
-            <use xlinkHref="#uniamazoncolor"></use>
+            <use xlinkHref='#uni-amazon'/>
           </svg>
           <svg className="icon" aria-hidden="true">
-            <use xlinkHref="#uniyou-tube"></use>
+            <use xlinkHref='#uni-youtube'/>
           </svg>
           <svg className="icon" aria-hidden="true">
-            <use xlinkHref="#unijoox"></use>
+            <use xlinkHref='#uni-joox'/>
           </svg>
           <svg className="icon" aria-hidden="true">
-            <use xlinkHref="#unidouyin1"></use>
+            <use xlinkHref='#uni-douyin'/>
           </svg>
         </div>
       </div>
