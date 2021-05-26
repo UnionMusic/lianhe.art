@@ -24,36 +24,7 @@ const Footer: React.FC = () => {
           <div className="flex justify-center mb-32 items-center">
             <span className="text-base sm:text-xl md:text-6xl text-white italic font-bold uppercase">LIANHEART</span>
           </div>
-          <div className="flex justify-end items-center space-x-8">
-            <Link href="https://github.com/UnionMusic">
-              <a target="_blank" rel="noreferrer noopener">
-                <svg className="icon" aria-hidden="true" style={{ fontSize: '12px', fill: '#fff' }}>
-                  <use xlinkHref="#uni-douyin" />
-                </svg>
-              </a>
-            </Link>
-            <Link href="https://github.com/UnionMusic">
-              <a target="_blank" rel="noreferrer noopener">
-                <svg className="icon" aria-hidden="true" style={{ fontSize: '12px', fill: '#fff' }}>
-                  <use xlinkHref="#uni-wechat" />
-                </svg>
-              </a>
-            </Link>
-            <Link href="https://weibo.com/u/6215288462">
-              <a target="_blank" rel="noreferrer noopener">
-                <svg className="icon" aria-hidden="true" style={{ fontSize: '12px', fill: '#fff' }}>
-                  <use xlinkHref="#uni-weibo" />
-                </svg>
-              </a>
-            </Link>
-            <Link href="https://github.com/UnionMusic">
-              <a target="_blank" rel="noreferrer noopener">
-                <svg className="icon" aria-hidden="true" style={{ fontSize: '10px', fill: '#fff' }}>
-                  <use xlinkHref="#uni-github" />
-                </svg>
-              </a>
-            </Link>
-          </div>
+
           <div className="flex justify-end font-light text-white my-4 center">
             <div className={'ml-2'}>
               <Link href="/about">
