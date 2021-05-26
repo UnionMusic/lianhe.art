@@ -9,20 +9,20 @@ const Header: React.FC = () => {
         <div className="relative">
           <div className="space-x-8 text-lg font-normal">
             <Link href="/">
-              <a className="transition duration-200 ease-in-out active">首页</a>
+              <a rel="noreferrer noopener" className="transition duration-200 ease-in-out active">首页</a>
             </Link>
             <Link href="https://support.lianhe.art">
-              <a className="transition duration-500 ease-in-out hover:text-blue-500 active">
+              <a rel="noreferrer noopener" target="_blank" className="transition duration-500 ease-in-out hover:text-blue-500 active">
                 帮助中心
               </a>
             </Link>
             <Link href="/">
-              <a className="transition duration-500 ease-in-out hover:text-blue-500 active">
+              <a rel="noreferrer noopener" className="transition duration-500 ease-in-out hover:text-blue-500 active">
                 联系我们
               </a>
             </Link>
             <Link href="https://www.lianhe.art/login">
-              <a className="transition duration-500 ease-in-out hover:text-blue-500 active">
+              <a rel="noreferrer noopener" className="transition duration-500 ease-in-out hover:text-blue-500 active">
                 登录
               </a>
             </Link>

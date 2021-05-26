@@ -25,28 +25,28 @@ const Footer: React.FC = () => {
           </div>
           <div className="flex justify-end items-center space-x-8">
             <Link href="https://github.com/UnionMusic">
-              <a target="_blank">
+              <a target="_blank" rel="noreferrer noopener">
                 <svg className="icon" aria-hidden="true" style={{ fontSize: '12px', fill: '#fff' }}>
                   <use xlinkHref="#unidouyin1" />
                 </svg>
               </a>
             </Link>
             <Link href="https://github.com/UnionMusic">
-              <a target="_blank">
+              <a target="_blank" rel="noreferrer noopener">
                 <svg className="icon" aria-hidden="true" style={{ fontSize: '12px', fill: '#fff' }}>
                   <use xlinkHref="#uniweixin1" />
                 </svg>
               </a>
             </Link>
             <Link href="https://weibo.com/u/6215288462">
-              <a target="_blank">
+              <a target="_blank" rel="noreferrer noopener">
                 <svg className="icon" aria-hidden="true" style={{ fontSize: '12px', fill: '#fff' }}>
                   <use xlinkHref="#uniweibo" />
                 </svg>
               </a>
             </Link>
             <Link href="https://github.com/UnionMusic">
-              <a target="_blank">
+              <a target="_blank" rel="noreferrer noopener">
                 <svg className="icon" aria-hidden="true" style={{ fontSize: '10px', fill: '#fff' }}>
                   <use xlinkHref="#unigithub" />
                 </svg>
