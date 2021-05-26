@@ -16,8 +16,7 @@ const words = [
 const IndexPage: NextPage = () => (
   <Layout title="联合互娱">
     <Head>
-      <title>联合互娱</title>
-      <script type="text/javascript" src="https://at.alicdn.com/t/font_1831659_3rznr4b64qk.js" />
+      <title>LIANHEART - 数字版权管理发行合作平台</title>
     </Head>
 
     <div className="max-w-screen-lg mx-auto my-0 2xl:max-w-screen-2xl">
