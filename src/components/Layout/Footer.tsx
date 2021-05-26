@@ -9,9 +9,8 @@ const Footer: React.FC = () => {
         <div className="pb-16">
           <Fade left cascade>
             <div className="font-semibold text-3xl my-8 2xl:text-6xl">CHOOSE US</div>
-            {/*<div className="font-thin my-8">NEW DIGITAL RIGHTS MANAGEMENT</div>*/}
-            <div className="font-light text-xl">全新数字版权管理平台，提供数字</div>
-            <div className="font-light text-xl">监控平台出品以及版税收益等一切服务</div>
+            <div className="font-light text-xl">全新一代数字版权管理平台，方便快捷</div>
+            <div className="font-light text-xl">提供一站式版权管理、发行与结算服务</div>
             <div className="font-light text-xl my-8"></div>
             <button className="primaryColor text-xl font-medium hover:text-opacity-30 border-2 hover:border-opacity-30 focus:outline-none border-primary px-10 py-1 transition duration-700 ease-in-out rounded-3xl">
               关于我们
@@ -80,10 +79,11 @@ const Footer: React.FC = () => {
               </Link>
             </div>
           </div>
-          <div className="font-light text-white text-right center uppercase text-blue-50 text-opacity-75">
-            © 2017 - 2021 <span className="italic font-bold uppercase">LIANHEART</span> All rights reserved
+          <div className="font-light text-right center uppercase text-blue-50 text-opacity-75">
+            <p className="tracking-tight md:tracking-wide">&copy; 2017 - 2021 <span className="italic font-bold tracking-tight md:tracking-wide">LIANHEART</span></p>
+            <p className="tracking-tight md:tracking-wide">All rights reserved</p>
           </div>
-          <div className="font-light text-white text-right center text-blue-50 text-opacity-75">京 ICP 备 17045054 号-10</div>
+          <div className="font-light text-right center text-blue-50 text-opacity-75">京 ICP 备 17045054 号-10</div>
         </div>
       </div>
       <style jsx>{`
