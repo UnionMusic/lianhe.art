@@ -4,6 +4,7 @@ import Head from 'next/head'
 import React from 'react'
 import { Fade } from 'react-reveal'
 import Typed from 'react-typed';
+import Link from 'next/link'
 
 const words = [
   '?',
