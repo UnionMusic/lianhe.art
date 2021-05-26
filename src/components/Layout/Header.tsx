@@ -16,7 +16,7 @@ const Header: React.FC = () => {
                 帮助中心
               </a>
             </Link>
-            <Link href="/">
+            <Link href="/contact">
               <a rel="noreferrer noopener" className="transition duration-500 ease-in-out hover:text-blue-500 active">
                 联系我们
               </a>
