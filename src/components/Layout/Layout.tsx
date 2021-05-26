@@ -24,6 +24,7 @@ const Layout: React.FC<Props> = ({ children, title = 'This is the default title'
       <link rel="dns-prefetch" href="https://www.lianhe.art" />
       <link rel="dns-prefetch" href="https://drm.lianhe.art" />
       <link rel="dns-prefetch" href="https://support.lianhe.art" />
+      <link rel="dns-prefetch" href="https://unionmusic.freshdesk.com" />
     </Head>
     <Header />
     <div className="px-8">{children}</div>
