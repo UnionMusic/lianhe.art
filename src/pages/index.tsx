@@ -98,11 +98,11 @@ const IndexPage: NextPage = () => (
         </Fade>
         <Fade left>
           <div className="flex items-center">
-            <div>
+            <div className="ml-auto">
               <img src="/imgs/content1.svg" style={{ width: '500px' }} alt="" />
             </div>
             <div className="ml-auto w-2/5">
-              <p className="font-medium text-2xl mb-4">数字版权管理</p>
+              <p className="font-medium text-2xl mb-4">一站式数字版权管理</p>
               <p className="font-extralight break-words">
                 音乐平台数据自主监控统计，可视化的监控歌手每日作品播放量评论量、粉丝数据的增幅情况、以及音乐上榜单监控并
                 推送通知歌手在平台所授权的原创音乐作品将免费拥有国际标准音像制「ISRC」编码，用于港澳台、海外地区的音乐/专辑出版销售。
@@ -110,10 +110,10 @@ const IndexPage: NextPage = () => (
             </div>
           </div>
           <div className="flex items-center">
-            <div className="w-2/5">
-              <p className="font-medium text-2xl mb-4">数字版权管理</p>
+            <div className="ml-auto w-2/5">
+              <p className="font-medium text-2xl mb-4">全球数字版权发行</p>
               <p className="font-extralight break-words">
-                音乐平台数据自主监控统计，可视化的监控歌手每日作品播放量评论量、粉丝数据的增幅情况、以及音乐上榜单监控并
+                通过 LIANHEART 将您的作品迅速的发行到全球 200+ 国家与地区，
                 推送通知歌手在平台所授权的原创音乐作品将免费拥有国际标准音像制「ISRC」编码，用于港澳台、海外地区的音乐/专辑出版销售。
               </p>
             </div>
@@ -122,11 +122,11 @@ const IndexPage: NextPage = () => (
             </div>
           </div>
           <div className="flex items-center">
-            <div>
+            <div className="ml-auto">
               <img src="/imgs/content3.svg" style={{ width: '500px' }} alt="" />
             </div>
             <div className="ml-auto w-2/5">
-              <p className="text font-medium text-2xl mb-4">数字版权管理</p>
+              <p className="text font-medium text-2xl mb-4">方便快捷的结算</p>
               <p className="font-extralight break-words">
                 音乐平台数据自主监控统计，可视化的监控歌手每日作品播放量评论量、粉丝数据的增幅情况、以及音乐上榜单监控并
                 推送通知歌手在平台所授权的原创音乐作品将免费拥有国际标准音像制「ISRC」编码，用于港澳台、海外地区的音乐/专辑出版销售。
