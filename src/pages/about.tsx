@@ -9,7 +9,7 @@ const AboutPage: NextPage = () => (
           <div className="relative py-8">
             <div>
               <h1 className="text-7xl my-8">关于我们</h1>
-              <img src="/imgs/logo.svg" className="h-7 sm:h-8" />
+              <img src="/imgs/logo.svg" className="h-7 sm:h-8"  alt="LIANHEART Logo"/>
             </div>
             <div className="divide-y divide-gray-200">
               <div className="py-8 text-base leading-6 space-y-4 text-gray-700 sm:text-lg sm:leading-7">
