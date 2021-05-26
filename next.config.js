@@ -18,5 +18,4 @@ module.exports = withBundleAnalyzer({
   images: {
     domains: [STATIC_URL],
   },
-  distDir: 'dist',
 })
