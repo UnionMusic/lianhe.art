@@ -46,6 +46,7 @@ module.exports = {
             allowConciseArrowFunctionExpressionsStartingWithVoid: true,
           },
         ],
+        'react/jsx-no-target-blank': ['error'],
       },
     },
   ],
