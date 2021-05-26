@@ -26,21 +26,18 @@ const IndexPage: NextPage = () => (
           <div>
             <Fade left cascade>
               <div className="font-semibold text-4xl 2xl:text-7xl my-4 tracking-wider">
-                新一代的全新
+                我们是一家
               </div>
               <div className="primaryColor font-semibold text-4xl 2xl:text-7xl my-4 tracking-wider">
                 数字版权管理平台
               </div>
-              <div className="font-semibold text-4xl 2xl:text-6xl my-4 tracking-wider">
-                应该是 <span><Typed strings={words} typeSpeed={120} backSpeed={120} loop/></span>
-              </div>
               <div className="my-8">
-                <p className="my-3 font-light text-xl 2xl:text-3xl">全新一代数字版权管理平台，方便快捷</p>
+                <p className="my-3 font-light text-xl 2xl:text-3xl">覆盖全球 150+ 地区数字版权发行渠道</p>
                 <p className="font-light text-xl 2xl:text-3xl">提供一站式版权管理、发行与结算服务</p>
               </div>
               <Link href="https://www.lianhe.art/login">
                 <button className="primaryColor text-xl font-medium border-2 hover:border-opacity-30 focus:outline-none border-primary px-10 py-1 transition duration-700 ease-in-out rounded-3xl">
-                  免费试用
+                  开始使用
                 </button>
               </Link>
             </Fade>
