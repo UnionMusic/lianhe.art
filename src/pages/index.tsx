@@ -14,7 +14,7 @@ const words = [
 ]
 
 const IndexPage: NextPage = () => (
-  <Layout title="联合互娱">
+  <Layout title="LIANHEART">
     <Head>
       <title>LIANHEART - 数字版权管理发行合作平台</title>
     </Head>
@@ -30,12 +30,18 @@ const IndexPage: NextPage = () => (
               <div className="primaryColor font-semibold text-4xl 2xl:text-7xl my-4 tracking-wider">
                 数字版权管理平台
               </div>
-              <div className="font-semibold text-4xl 2xl:text-7xl my-4 tracking-wider">
-                应该是 <span><Typed strings={words} typeSpeed={180} /></span>
+              <div className="font-semibold text-4xl 2xl:text-6xl my-4 tracking-wider">
+                应该是 <span><Typed strings={words} typeSpeed={120} backSpeed={120} loop/></span>
               </div>
-              <button className="primaryColor text-xl font-medium border-2 hover:border-opacity-30 focus:outline-none border-primary px-10 py-1 transition duration-700 ease-in-out rounded-3xl">
-                免费试用
-              </button>
+              <div className="my-8">
+                <p className="my-3 font-light text-xl 2xl:text-3xl">全新一代数字版权管理平台，方便快捷</p>
+                <p className="font-light text-xl 2xl:text-3xl">提供一站式版权管理、发行与结算服务</p>
+              </div>
+              <Link href="https://www.lianhe.art/login">
+                <button className="primaryColor text-xl font-medium border-2 hover:border-opacity-30 focus:outline-none border-primary px-10 py-1 transition duration-700 ease-in-out rounded-3xl">
+                  免费试用
+                </button>
+              </Link>
             </Fade>
           </div>
           <div className="ml-auto w-2/5 2xl:w-3/6">
