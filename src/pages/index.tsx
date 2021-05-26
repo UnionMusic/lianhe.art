@@ -7,11 +7,10 @@ import Typed from 'react-typed';
 import Link from 'next/link'
 
 const words = [
-  '?',
-  '简单的',
-  '方便的',
-  '快捷的',
-  'LIANHEART'
+  '版权发行',
+  '数据监测',
+  '侵权维权',
+  '版税结算'
 ]
 
 const IndexPage: NextPage = () => (
@@ -30,6 +29,9 @@ const IndexPage: NextPage = () => (
               </div>
               <div className="primaryColor font-semibold text-4xl 2xl:text-7xl my-4 tracking-wider">
                 数字版权管理平台
+              </div>
+              <div className="font-semibold text-4xl 2xl:text-6xl my-4 tracking-wider">
+                可提供 <span><Typed strings={words} typeSpeed={120} backSpeed={120} loop/></span>
               </div>
               <div className="my-8">
                 <p className="my-3 font-light text-xl 2xl:text-3xl">覆盖全球 150+ 地区数字版权发行渠道</p>
@@ -102,8 +104,8 @@ const IndexPage: NextPage = () => (
             <div className="ml-auto w-2/5">
               <p className="font-medium text-2xl mb-4">一站式数字版权管理</p>
               <p className="font-extralight break-words">
-                音乐平台数据自主监控统计，可视化的监控歌手每日作品播放量评论量、粉丝数据的增幅情况、以及音乐上榜单监控并
-                推送通知歌手在平台所授权的原创音乐作品将免费拥有国际标准音像制「ISRC」编码，用于港澳台、海外地区的音乐/专辑出版销售。
+                平台提供一站式音乐版权上传管理、电子合约签署、版权时间戳认证服务。您可以通过后台自主创建版权发行与我们快速建立合作 <br/>
+                LIANHEART 平台提供 10:00-6:30 (北京时间 周一至周五)工单处理服务，为您解决音乐版权发行所会遇上的种种问题。
               </p>
             </div>
           </div>
@@ -111,8 +113,8 @@ const IndexPage: NextPage = () => (
             <div className="ml-auto w-2/5">
               <p className="font-medium text-2xl mb-4">全球数字版权发行</p>
               <p className="font-extralight break-words">
-                通过 LIANHEART 将您的作品迅速的发行到全球 200+ 国家与地区，
-                推送通知歌手在平台所授权的原创音乐作品将免费拥有国际标准音像制「ISRC」编码，用于港澳台、海外地区的音乐/专辑出版销售。
+                通过 LIANHEART 将您的作品迅速的发行到全球 200+ 国家与地区，<br/>
+                我们为您的作品免费提供了UPC编码与ISRC编码用于港澳台、海外地区的音乐/专辑出版销售。
               </p>
             </div>
             <div className="ml-auto">
@@ -126,8 +128,8 @@ const IndexPage: NextPage = () => (
             <div className="ml-auto w-2/5">
               <p className="text font-medium text-2xl mb-4">方便快捷的结算</p>
               <p className="font-extralight break-words">
-                音乐平台数据自主监控统计，可视化的监控歌手每日作品播放量评论量、粉丝数据的增幅情况、以及音乐上榜单监控并
-                推送通知歌手在平台所授权的原创音乐作品将免费拥有国际标准音像制「ISRC」编码，用于港澳台、海外地区的音乐/专辑出版销售。
+                LIANHEART 平台会为您收集全球发行平台上所有产生的版权收益，并为您提供详细收入账单。<br/>
+                您可以通过管理平台一键下载账单进行审阅，并申请版税提现即可快速获得您应有的版权收益。
               </p>
             </div>
           </div>
