@@ -27,9 +27,9 @@ const Layout: React.FC<Props> = ({ children, title = 'This is the default title'
       <link rel="dns-prefetch" href="https://unionmusic.freshdesk.com" />
     </Head>
     <Header />
-    <div className="px-8">{children}</div>
+    <div className="main">{children}</div>
     <Footer />
-    <script async src="//at.alicdn.com/t/font_1831659_dtpb15crl0i.js" />
+    <script async src="//at.alicdn.com/t/font_1831659_toerao4i589.js" />
   </div>
 )
 
