@@ -13,9 +13,15 @@ const Header: React.FC = () => {
             <Link href="/">
               <a className="transition duration-200 ease-in-out active">首页</a>
             </Link>
+            <Link href="/">
+              <a className="transition duration-200 ease-in-out active">支持</a>
+            </Link>
+            <Link href="/">
+              <a className="transition duration-200 ease-in-out active">合作</a>
+            </Link>
             <Link href="https://support.lianhe.art">
               <a className="transition duration-500 ease-in-out hover:text-blue-500 active">
-                帮助中心
+                帮助
               </a>
             </Link>
           </div>
