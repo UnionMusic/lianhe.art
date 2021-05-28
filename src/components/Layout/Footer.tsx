@@ -47,7 +47,7 @@ const Footer: React.FC = () => {
               </Link>
             </div>
             <div className={'ml-2'}>
-              <Link href="https://unionmusic.freshdesk.com/support/tickets/new">
+              <Link href="https://support.lianhe.art/support/tickets/new">
                 侵权投诉
               </Link>
             </div>
