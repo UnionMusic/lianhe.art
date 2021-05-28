@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const Footer: React.FC = () => {
   return (
-    <div className="px-8 mt-40">
+    <div className="px-8">
       <div className="flex justify-between items-center mx-auto max-w-screen-lg">
         <div className="pb-16">
           <Fade left cascade>
