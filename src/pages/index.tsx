@@ -2,6 +2,7 @@ import { Layout } from '../components/Layout'
 import { NextPage } from 'next'
 import Head from 'next/head'
 import React from 'react'
+import Link from 'next/link'
 
 const IndexPage: NextPage = () => (
   <Layout title="联合互娱">
@@ -14,10 +15,14 @@ const IndexPage: NextPage = () => (
         <h3>为您提供最佳的版权管理服务，包括覆盖至海内外播放渠道的歌曲发行，业内领先的方便快捷的收益结算，以及数据监控，侵权维权等服务。</h3>
         <div className="main-button">
           <div className="button-spacer">
-            <div className="btn">开始使用</div>
+            <Link href="https://www.lianhe.art/login">
+              <a className="btn">开始使用</a>
+            </Link>
           </div>
           <div className="button-spacer">
-            <div className="btn btn-line btn-outline">申请入驻</div>
+            <Link href="https://www.lianhe.art/login">
+              <a className="btn btn-line btn-outline">申请入驻</a>
+            </Link>
           </div>
         </div>
       </div>

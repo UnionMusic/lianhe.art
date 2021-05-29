@@ -28,10 +28,14 @@ const Header: React.FC = () => {
         </div>
         <div className="main-button">
           <div className="button-spacer">
-            <div className="btn btn-primary">登录</div>
+            <Link href="https://www.lianhe.art/login">
+              <a className="btn btn-primary">登录</a>
+            </Link>
           </div>
           <div className="button-spacer">
-            <div className="btn btn-line btn-outline btn-primary">注册</div>
+            <Link href="https://www.lianhe.art/register">
+              <a className="btn btn-line btn-outline btn-primary">注册</a>
+            </Link>
           </div>
         </div>
       </div>
