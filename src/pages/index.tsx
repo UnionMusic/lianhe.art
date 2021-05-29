@@ -62,7 +62,6 @@ const IndexPage: NextPage = () => (
           <use xlinkHref='#uni-joox'/>
         </svg>
       </div>
-      {/*<img src="https://lhcdn.lanhuapp.com/home/img/HedaerWave.png" alt="" className="wave-bg" />*/}
     </div>
     <div className="central-container central-container-item">
       <div className="max-w-screen-lg mx-auto flex flex-col justify-center items-center">
@@ -126,8 +125,8 @@ const IndexPage: NextPage = () => (
         <div className="desc-container">
           <div className="desc-container-item flex items-center">
             <div className="desc-container-left flex-1">
-              <p className="text-3xl sm:text-5xl lg:text-4xl leading-none font-extrabold text-gray-900 tracking-tight mb-3 max-w-[40.23rem]">LIANHE.ART 每天都在进步-不要错过所有动作。</p>
-              <p className="gray text-1xl sm:text-1xl leading-none tracking-tight">加入 LIANHE.ART 版权管理平台，并随时了解新版本和功能，指南和案例研究。</p>
+              <p className="text-3xl sm:text-5xl lg:text-4xl leading-none font-extrabold text-gray-900 tracking-tight mb-3 max-w-[40.23rem]">LIANHE.ART 每天都在进步，不要错过所有动作。</p>
+              <p className="gray text-1xl sm:text-1xl leading-none tracking-tight max-w-[40.23rem]">加入 LIANHE.ART，用最好的解决方案管理您的数字版权。</p>
             </div>
             <div className="main-button">
               <div className="btn">立刻体验</div>

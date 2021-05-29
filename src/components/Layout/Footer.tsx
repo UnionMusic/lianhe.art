@@ -1,5 +1,4 @@
 import React from 'react'
-import { Fade } from 'react-reveal'
 import Link from 'next/link'
 
 const Footer: React.FC = () => {
@@ -12,47 +11,32 @@ const Footer: React.FC = () => {
             <div className="flex flex-col">
               <h4 className="font-bold">资源</h4>
               <div className="flex flex-col mt-3 space-y-1">
-                <Link href="/">
-                  <a>支持</a>
+                <Link href="https://unionmusic.freshdesk.com">
+                  <a target="_blank">支持</a>
                 </Link>
-                <Link href="/">
-                  <a>帮助中心</a>
+                <Link href="https://support.lianhe.art">
+                  <a target="_blank">帮助</a>
                 </Link>
-                <Link href="/">
-                  <a>侵权投诉</a>
+                <Link href="mailto:music@lianhe.art">
+                  <a target="_blank">侵权投诉</a>
+                </Link>
+                <Link href="mailto:music@lianhe.art">
+                  <a>商务洽谈</a>
                 </Link>
               </div>
             </div>
 
             <div className="flex flex-col">
-              <h4 className="font-bold">XX</h4>
+              <h4 className="font-bold">关于</h4>
               <div className="flex flex-col mt-3 space-y-1">
-                <Link href="/">
-                  <a>关于</a>
-                </Link>
                 <Link href="/">
                   <a>联系我们</a>
                 </Link>
                 <Link href="/">
-                  <a>商务洽谈</a>
+                  <a>用户协议</a>
                 </Link>
                 <Link href="/">
-                  <a>平台协议</a>
-                </Link>
-                <Link href="/">
-                  <a>内容准入</a>
-                </Link>
-              </div>
-            </div>
-
-            <div className="flex flex-col">
-              <h4 className="font-bold">合作平台</h4>
-              <div className="flex flex-col mt-3 space-y-1">
-                <Link href="/">
-                  <a>腾讯音乐</a>
-                </Link>
-                <Link href="/">
-                  <a>网易云</a>
+                  <a>隐私政策</a>
                 </Link>
               </div>
             </div>
@@ -61,13 +45,25 @@ const Footer: React.FC = () => {
               <h4 className="font-bold">社交媒体</h4>
               <div className="flex flex-col mt-3 space-y-1">
                 <Link href="/">
-                  <a>GitHub</a>
+                  <a target="_blank">GitHub</a>
                 </Link>
                 <Link href="/">
-                  <a>抖音</a>
+                  <a target="_blank">抖音</a>
                 </Link>
                 <Link href="/">
-                  <a>微博</a>
+                  <a target="_blank">微博</a>
+                </Link>
+              </div>
+            </div>
+
+            <div className="flex flex-col">
+              <h4 className="font-bold">合作平台</h4>
+              <div className="flex flex-col mt-3 space-y-1">
+                <Link href="https://www.tencentmusic.com">
+                  <a target="_blank">腾讯音乐</a>
+                </Link>
+                <Link href="https://music.163.com">
+                  <a target="_blank">网易云</a>
                 </Link>
               </div>
             </div>

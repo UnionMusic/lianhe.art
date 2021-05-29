@@ -6,21 +6,21 @@ const Header: React.FC = () => {
     <div className="header">
       <div className="header-container flex items-center">
         <div className="header-container-logo">
-          <div className="italic font-bold text-xl">LIANHE.ART</div>
+          <embed src="/assets/logo.svg" type="image/svg+xml" />
         </div>
         <div className="header-container-menu">
           <div className="space-x-8 text-lg font-normal">
             <Link href="/">
               <a className="transition duration-200 ease-in-out active">首页</a>
             </Link>
-            <Link href="/">
-              <a className="transition duration-200 ease-in-out active">支持</a>
+            <Link href="https://unionmusic.freshdesk.com">
+              <a target="_blank" className="transition duration-200 ease-in-out active">支持</a>
             </Link>
-            <Link href="/">
+            <Link href="mailto:music@lianhe.art">
               <a className="transition duration-200 ease-in-out active">合作</a>
             </Link>
             <Link href="https://support.lianhe.art">
-              <a className="transition duration-500 ease-in-out hover:text-blue-500 active">
+              <a target="_blank" className="transition duration-500 ease-in-out hover:text-blue-500 active">
                 帮助
               </a>
             </Link>
@@ -51,6 +51,9 @@ const Header: React.FC = () => {
         .header-container-logo {
           padding: 10px;
         }
+        .header-container-logo embed {
+          width: 140px;
+        }
         .header-container-menu {
           color: #696969;
           display: flex;
@@ -61,7 +64,6 @@ const Header: React.FC = () => {
         .header-container-menu a {
           font-size: 16px;
         }
-        .active:focus,
         .active:hover {
           color: #3583fb;
         }
