@@ -6,7 +6,7 @@ const Header: React.FC = () => {
     <div className="header">
       <div className="header-container flex items-center">
         <div className="header-container-logo">
-          <embed src="/assets/logo.svg" type="image/svg+xml" />
+          <embed src="/imgs/logo.svg" type="image/svg+xml" />
         </div>
         <div className="header-container-menu">
           <div className="space-x-8 text-lg font-normal">
@@ -14,13 +14,13 @@ const Header: React.FC = () => {
               <a className="transition duration-200 ease-in-out active">首页</a>
             </Link>
             <Link href="https://unionmusic.freshdesk.com">
-              <a target="_blank" className="transition duration-200 ease-in-out active">支持</a>
+              <a rel="noreferrer noopener" target="_blank" className="transition duration-200 ease-in-out active">支持</a>
             </Link>
-            <Link href="mailto:music@lianhe.art">
-              <a className="transition duration-200 ease-in-out active">合作</a>
+            <Link href="https://support.lianhe.art/support/tickets/new">
+              <a rel="noreferrer noopener" target="_blank" className="transition duration-200 ease-in-out active">合作</a>
             </Link>
             <Link href="https://support.lianhe.art">
-              <a target="_blank" className="transition duration-500 ease-in-out hover:text-blue-500 active">
+              <a rel="noreferrer noopener" target="_blank" className="transition duration-500 ease-in-out hover:text-blue-500 active">
                 帮助
               </a>
             </Link>

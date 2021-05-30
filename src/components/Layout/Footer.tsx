@@ -11,17 +11,17 @@ const Footer: React.FC = () => {
             <div className="flex flex-col">
               <h4 className="font-bold">资源</h4>
               <div className="flex flex-col mt-3 space-y-1">
-                <Link href="https://unionmusic.freshdesk.com">
-                  <a target="_blank">支持</a>
+                <Link href="https://support.lianhe.art">
+                  <a rel="noreferrer noopener" target="_blank">支持</a>
                 </Link>
                 <Link href="https://support.lianhe.art">
-                  <a target="_blank">帮助</a>
+                  <a rel="noreferrer noopener" target="_blank">帮助</a>
+                </Link>
+                <Link href="mailto:contact@lianhe.art">
+                  <a rel="noreferrer noopener" target="_blank">侵权投诉</a>
                 </Link>
                 <Link href="mailto:music@lianhe.art">
-                  <a target="_blank">侵权投诉</a>
-                </Link>
-                <Link href="mailto:music@lianhe.art">
-                  <a>商务洽谈</a>
+                  <a rel="noreferrer noopener" target="_blank">商务洽谈</a>
                 </Link>
               </div>
             </div>
@@ -30,13 +30,13 @@ const Footer: React.FC = () => {
               <h4 className="font-bold">关于</h4>
               <div className="flex flex-col mt-3 space-y-1">
                 <Link href="/">
-                  <a>联系我们</a>
+                  <a rel="noreferrer noopener" target="_blank">联系我们</a>
                 </Link>
                 <Link href="/">
-                  <a>用户协议</a>
+                  <a rel="noreferrer noopener" target="_blank">用户协议</a>
                 </Link>
                 <Link href="/">
-                  <a>隐私政策</a>
+                  <a rel="noreferrer noopener" target="_blank">隐私政策</a>
                 </Link>
               </div>
             </div>
@@ -45,13 +45,13 @@ const Footer: React.FC = () => {
               <h4 className="font-bold">社交媒体</h4>
               <div className="flex flex-col mt-3 space-y-1">
                 <Link href="/">
-                  <a target="_blank">GitHub</a>
+                  <a rel="noreferrer noopener" target="_blank">GitHub</a>
                 </Link>
                 <Link href="/">
-                  <a target="_blank">抖音</a>
+                  <a rel="noreferrer noopener" target="_blank">抖音</a>
                 </Link>
                 <Link href="/">
-                  <a target="_blank">微博</a>
+                  <a rel="noreferrer noopener" target="_blank">微博</a>
                 </Link>
               </div>
             </div>
@@ -60,16 +60,16 @@ const Footer: React.FC = () => {
               <h4 className="font-bold">合作平台</h4>
               <div className="flex flex-col mt-3 space-y-1">
                 <Link href="https://www.tencentmusic.com">
-                  <a target="_blank">腾讯音乐</a>
+                  <a rel="noreferrer noopener" target="_blank">腾讯音乐</a>
                 </Link>
                 <Link href="https://music.163.com">
-                  <a target="_blank">网易云</a>
+                  <a rel="noreferrer noopener" target="_blank">网易云</a>
                 </Link>
               </div>
             </div>
           </div>
           <div className="footer-bottom-container-logo">
-            <div className="italic font-bold text-xl">LIANHE.ART</div>
+            <embed src="/imgs/logo.svg" type="image/svg+xml" />
             <div className="footer-bottom-container-logo-description">Copyright © 2017 - 2021 LIANHE.ART Inc. All Rights Reserved. 京 ICP 备 17045054 号-10</div>
           </div>
         </div>
@@ -83,6 +83,10 @@ const Footer: React.FC = () => {
         }
         a {
           color: #666666 !important;
+        }
+        .footer-bottom-container-logo embed {
+          width: 140px;
+          margin-bottom: 10px;
         }
         .footer-bottom-container-logo-description {
           font-size: 12px;
