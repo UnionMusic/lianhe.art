@@ -3,73 +3,73 @@ import Link from 'next/link'
 
 const Header: React.FC = () => {
   return (
-    <div className="py-4 px-8 relative">
-      <div className="flex justify-between items-center max-w-screen-lg 2xl:max-w-screen-2xl mx-auto my-0 menu">
-        <div className="italic font-bold text-xl">LIANHEART</div>
-        <div className="relative">
+    <div className="header">
+      <div className="header-container flex items-center">
+        <div className="header-container-logo">
+          <embed src="/imgs/logo.svg" type="image/svg+xml" />
+        </div>
+        <div className="header-container-menu">
           <div className="space-x-8 text-lg font-normal">
             <Link href="/">
               <a rel="noreferrer noopener" className="transition duration-200 ease-in-out active">首页</a>
             </Link>
-            <Link href="https://support.lianhe.art/">
+            <Link href="https://unionmusic.freshdesk.com">
+              <a rel="noreferrer noopener" target="_blank" className="transition duration-200 ease-in-out active">支持</a>
+            </Link>
+            <Link href="https://support.lianhe.art/support/tickets/new">
+              <a rel="noreferrer noopener" target="_blank" className="transition duration-200 ease-in-out active">合作</a>
+            </Link>
+            <Link href="https://support.lianhe.art">
               <a rel="noreferrer noopener" target="_blank" className="transition duration-500 ease-in-out hover:text-blue-500 active">
-                帮助中心
-              </a>
-            </Link>
-            <Link href="/contact">
-              <a rel="noreferrer noopener" className="transition duration-500 ease-in-out hover:text-blue-500 active">
-                联系我们
-              </a>
-            </Link>
-            <Link href="https://www.lianhe.art/login">
-              <a rel="noreferrer noopener" className="transition duration-500 ease-in-out hover:text-blue-500 active">
-                登录
+                帮助
               </a>
             </Link>
           </div>
         </div>
-      </div>
-      <div className="absolute top-0 left-0 transform rotate-180" style={{ zIndex: -1 }}>
-        <img src="/imgs/bg.png" alt="" style={{ width: '100vw' }} />
+        <div className="main-button">
+          <div className="button-spacer">
+            <Link href="https://d.lianhe.art/account/login">
+              <a rel="noreferrer noopener" className="btn btn-primary">登录</a>
+            </Link>
+          </div>
+          <div className="button-spacer">
+            <Link href="https://d.lianhe.art/account/register">
+              <a rel="noreferrer noopener" className="btn btn-line btn-outline btn-primary">注册</a>
+            </Link>
+          </div>
+        </div>
       </div>
       <style jsx>{`
-        .active {
-          position: relative;
-          transition: 0.2s all linear;
-        }
-        .active:focus,
-        .active:hover {
-          color: #4571fc;
-        }
-        .active::before {
-          width: 0;
-          height: 100%;
-          position: absolute;
-          top: 10px;
-          left: 100%;
-          border-bottom: 2px solid #4571fc;
-          content: '';
-          transition: 0.2s all linear;
-        }
-        .active:hover::before {
+        .header {
           width: 100%;
-          left: 0;
-          transition-delay: 0.1s;
+          position: fixed;
+          z-index: 999;
+          background: #ffffff;
         }
-        .active:hover ~ .active::before {
-          left: 0;
+        .header-container{
+          padding: 1rem 1rem;
+          max-width: 1064px;
+          text-align: center;
+          margin: 0 auto;
         }
-        @media (min-device-width: 200px) and (max-width: 480px) {
-          .menu-icon {
-            width: 30px;
-            height: 25px;
-            border-top: 5px solid #000;
-            border-bottom: 5px solid #000;
-            background-color: #000;
-            padding: 5px 0;
-            margin-left: auto;
-            background-clip: content-box;
-          }
+        .header-container-logo {
+          padding: 10px;
+        }
+        .header-container-logo embed {
+          width: 140px;
+        }
+        .header-container-menu {
+          color: #696969;
+          display: flex;
+          flex: 1;
+          justify-content: flex-end;
+          margin-right: 2rem;
+        }
+        .header-container-menu a {
+          font-size: 16px;
+        }
+        .active:hover {
+          color: #3583fb;
         }
       `}</style>
     </div>
