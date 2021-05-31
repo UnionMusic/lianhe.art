@@ -11,7 +11,7 @@ const Header: React.FC = () => {
         <div className="header-container-menu">
           <div className="space-x-8 text-lg font-normal">
             <Link href="/">
-              <a className="transition duration-200 ease-in-out active">首页</a>
+              <a rel="noreferrer noopener" className="transition duration-200 ease-in-out active">首页</a>
             </Link>
             <Link href="https://unionmusic.freshdesk.com">
               <a rel="noreferrer noopener" target="_blank" className="transition duration-200 ease-in-out active">支持</a>
@@ -28,13 +28,13 @@ const Header: React.FC = () => {
         </div>
         <div className="main-button">
           <div className="button-spacer">
-            <Link href="https://www.lianhe.art/login">
-              <a className="btn btn-primary">登录</a>
+            <Link href="https://d.lianhe.art/account/login">
+              <a rel="noreferrer noopener" className="btn btn-primary">登录</a>
             </Link>
           </div>
           <div className="button-spacer">
-            <Link href="https://www.lianhe.art/register">
-              <a className="btn btn-line btn-outline btn-primary">注册</a>
+            <Link href="https://d.lianhe.art/account/register">
+              <a rel="noreferrer noopener" className="btn btn-line btn-outline btn-primary">注册</a>
             </Link>
           </div>
         </div>

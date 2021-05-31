@@ -7,20 +7,20 @@ import Link from 'next/link'
 const IndexPage: NextPage = () => (
   <Layout title="联合互娱">
     <Head>
-      <title>LIANHE.ART 数字版权管理平台</title>
+      <title>LIANHE.ART 数字版权管理发行合作平台</title>
     </Head>
     <div className="central-container">
       <div className="intro-container max-w-screen-lg mx-auto flex flex-col justify-center items-center">
         <h1>数字版权管理平台</h1>
-        <h3>为您提供最佳的版权管理服务，包括覆盖至海内外播放渠道的歌曲发行，业内领先的方便快捷的收益结算，以及数据监控，侵权维权等服务。</h3>
+        <h3>为您提供最便捷的版权管理服务，包括覆盖至海内外播放渠道的歌曲发行，业内领先的方便快捷的收益结算，以及数据监控，侵权维权等服务。</h3>
         <div className="main-button">
           <div className="button-spacer">
-            <Link href="https://www.lianhe.art/login">
+            <Link href="https://d.lianhe.art/account/login">
               <a className="btn">开始使用</a>
             </Link>
           </div>
           <div className="button-spacer">
-            <Link href="https://www.lianhe.art/login">
+            <Link href="https://d.lianhe.art/account/register">
               <a className="btn btn-line btn-outline">申请入驻</a>
             </Link>
           </div>
@@ -71,7 +71,7 @@ const IndexPage: NextPage = () => (
     <div className="central-container central-container-item">
       <div className="max-w-screen-lg mx-auto flex flex-col justify-center items-center">
         <h2>我们能做什么</h2>
-        <h3>选择 LIANHE.ART 助您的音乐道路更加辉煌</h3>
+        <h3>选择 LIANHE.ART 的理由是？</h3>
         <div className="desc-container">
           <div className="desc-container-item">
             <div className="desc-container-icon">

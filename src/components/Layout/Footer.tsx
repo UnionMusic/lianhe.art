@@ -70,7 +70,7 @@ const Footer: React.FC = () => {
           </div>
           <div className="footer-bottom-container-logo">
             <embed src="/imgs/logo.svg" type="image/svg+xml" />
-            <div className="footer-bottom-container-logo-description">Copyright © 2017 - 2021 LIANHE.ART Inc. All Rights Reserved. 京 ICP 备 17045054 号-10</div>
+            <div className="footer-bottom-container-logo-description">Copyright © 2017 - 2021 LIANHE.ART All Rights Reserved. 京 ICP 备 17045054 号-10</div>
           </div>
         </div>
       </div>
