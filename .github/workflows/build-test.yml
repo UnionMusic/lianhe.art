@@ -110,7 +110,7 @@ jobs:
           HUSKY_SKIP_INSTALL: true
 
       - run: yarn
-      - run: yarn build
+      - run: yarn build-prod
 
   tests:
     name: 'Tests'
