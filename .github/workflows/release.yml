@@ -18,7 +18,7 @@ jobs:
       - layer
     strategy:
       matrix:
-        node: [ '14' ]
+        node: [ '15' ]
 
     name: Deploy static files to COS
     steps:
@@ -85,7 +85,7 @@ jobs:
       - cos
     strategy:
       matrix:
-        node: [ '14' ]
+        node: [ '15' ]
 
     name: Publish to  CDN
     steps:

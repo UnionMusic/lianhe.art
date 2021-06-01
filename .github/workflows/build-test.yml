@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node: [ '14' ]
+        node: [ '15' ]
     steps:
       - uses: actions/checkout@v2.3.4
 
@@ -49,7 +49,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node: [ '14' ]
+        node: [ '15' ]
     steps:
       - uses: actions/checkout@v2.3.4
         with:
@@ -84,7 +84,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node: [ '14' ]
+        node: [ '15' ]
     steps:
       - uses: actions/checkout@v2.3.4
       - name: Setup Node ${{ matrix.node }}
@@ -118,7 +118,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node: [ '14' ]
+        node: [ '15' ]
     steps:
       - uses: actions/checkout@v2.3.4
       - name: Setup Node ${{ matrix.node }}
