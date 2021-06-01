@@ -16,9 +16,6 @@ jobs:
   lighthouse-check:
     name: 'Lighthouse'
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node: [ '14' ]
     steps:
       - uses: actions/checkout@v2.3.4
         with:
