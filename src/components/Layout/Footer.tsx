@@ -3,12 +3,12 @@ import Link from 'next/link'
 
 const Footer: React.FC = () => {
   return (
-    <div className="footer">
+    <div className="footer px-4 xl:px-0">
       <div className="footer-bottom-container">
         <div className="max-w-screen-lg mx-auto">
-          <div className="max-w-screen-lg mx-auto flex justify-between mb-8">
+          <div className="max-w-screen-lg mx-auto justify-between grid grid-cols-2 md:flex">
 
-            <div className="flex flex-col">
+            <div className="flex flex-col mb-8">
               <h4 className="font-bold">资源</h4>
               <div className="flex flex-col mt-3 space-y-1">
                 <Link href="https://support.lianhe.art">
@@ -26,7 +26,7 @@ const Footer: React.FC = () => {
               </div>
             </div>
 
-            <div className="flex flex-col">
+            <div className="flex flex-col mb-8">
               <h4 className="font-bold">关于</h4>
               <div className="flex flex-col mt-3 space-y-1">
                 <Link href="/">
@@ -41,7 +41,7 @@ const Footer: React.FC = () => {
               </div>
             </div>
 
-            <div className="flex flex-col">
+            <div className="flex flex-col mb-8">
               <h4 className="font-bold">社交媒体</h4>
               <div className="flex flex-col mt-3 space-y-1">
                 <Link href="/">
@@ -56,7 +56,7 @@ const Footer: React.FC = () => {
               </div>
             </div>
 
-            <div className="flex flex-col">
+            <div className="flex flex-col mb-8">
               <h4 className="font-bold">合作平台</h4>
               <div className="flex flex-col mt-3 space-y-1">
                 <Link href="https://www.tencentmusic.com">
@@ -68,7 +68,7 @@ const Footer: React.FC = () => {
               </div>
             </div>
           </div>
-          <div className="footer-bottom-container-logo">
+          <div className="footer-bottom-container-logo mt-5">
             <embed src="/imgs/logo.svg" type="image/svg+xml" />
             <div className="footer-bottom-container-logo-description">Copyright © 2017 - 2021 LIANHE.ART All Rights Reserved. 京 ICP 备 17045054 号-10</div>
           </div>
@@ -78,8 +78,9 @@ const Footer: React.FC = () => {
         .footer {
           background-color: #fafafa;
           border-top: 1px solid #eaeaea;
-          margin-top: 40px;
-          padding: 40px 0;
+          margin-top: 50px;
+          padding-top: 50px;
+          padding-bottom: 50px;
         }
         a {
           color: #666666 !important;
