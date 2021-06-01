@@ -63,6 +63,14 @@ jobs:
         if: steps.cache-dist.outputs.cache-hit != 'true'
         run: yarn build-prod
 
+      - name: Deploy static to Tencent CloudBase
+        id: deployStatic
+        uses: TencentCloudBase/cloudbase-action@v2
+        with:
+          secretId: ${{ secrets.TENCENTCLOUD_CLOUDBASE_SECRET_ID }}
+          secretKey: ${{ secrets.TENCENTCLOUD_CLOUDBASE_SECRET_KEY }}
+          envId: ${{ secrets.ENV_ID }}
+
       - name: Setup Serverless
         uses: teakowa/setup-serverless@v2
         with:
