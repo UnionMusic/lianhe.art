@@ -4,8 +4,8 @@ component: cos
 name: cos
 
 inputs:
-  src: ../dist/static
-  targetDir: /_next/static
+  src: ../dist
+  targetDir: /
   bucket: ${app}-website-${name}
   region: ap-shanghai
   protocol: https
