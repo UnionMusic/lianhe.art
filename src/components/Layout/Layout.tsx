@@ -28,7 +28,7 @@ const Layout: React.FC<Props> = ({ children, title = 'This is the default title'
       <link rel="stylesheet" href="//at.alicdn.com/t/font_2577785_pyavbz2qbr.css" />
     </Head>
     <Header />
-    <div className="main">{children}</div>
+    <div className="px-4 xl:px-0">{children}</div>
     <Footer />
     <script async src="//at.alicdn.com/t/font_1831659_toerao4i589.js" />
   </div>

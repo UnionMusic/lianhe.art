@@ -13,7 +13,7 @@ const IndexPage: NextPage = () => (
       <div className="intro-container max-w-screen-lg mx-auto flex flex-col justify-center items-center">
         <h1>数字版权管理平台</h1>
         <h3>为您提供最便捷的版权管理服务，包括覆盖至海内外播放渠道的歌曲发行，业内领先的方便快捷的收益结算，以及数据监控，侵权维权等服务。</h3>
-        <div className="main-button">
+        <div className="flex grid grid-cols-1 md:grid-cols-2">
           <div className="button-spacer">
             <Link href="https://d.lianhe.art/account/login">
               <a className="btn">开始使用</a>
@@ -26,46 +26,50 @@ const IndexPage: NextPage = () => (
           </div>
         </div>
       </div>
-      <div className="platform-lists max-w-screen-lg mx-auto flex justify-between">
-        <svg className="icon" aria-hidden="true">
-          <use xlinkHref="#uni-QQyinle" />
-        </svg>
-        <svg className="icon" aria-hidden="true">
-          <use xlinkHref='#uni-kugou'/>
-        </svg>
-        <svg className="icon" aria-hidden="true">
-          <use xlinkHref='#uni-kuwo'/>
-        </svg>
-        <svg className="icon" aria-hidden="true">
-          <use xlinkHref='#uni-netease'/>
-        </svg>
-        <svg className="icon" aria-hidden="true">
-          <use xlinkHref='#uni-douyin'/>
-        </svg>
-        <svg className="icon" aria-hidden="true">
-          <use xlinkHref='#uni-quanminKge'/>
-        </svg>
-        <svg className="icon" aria-hidden="true">
-          <use xlinkHref='#uni-5sing'/>
-        </svg>
-        <svg className="icon" aria-hidden="true">
-          <use xlinkHref='#uni-spotify'/>
-        </svg>
-        <svg className="icon" aria-hidden="true">
-          <use xlinkHref='#uni-apple'/>
-        </svg>
-        <svg className="icon" aria-hidden="true">
-          <use xlinkHref='#uni-google-play'/>
-        </svg>
-        <svg className="icon" aria-hidden="true">
-          <use xlinkHref='#uni-amazon'/>
-        </svg>
-        <svg className="icon" aria-hidden="true">
-          <use xlinkHref='#uni-youtube'/>
-        </svg>
-        <svg className="icon" aria-hidden="true">
-          <use xlinkHref='#uni-joox'/>
-        </svg>
+      <div className="platform-container">
+        <div className="platform-lists-slide">
+          <div className="platform-lists justify-between">
+            <svg className="icon" aria-hidden="true">
+              <use xlinkHref="#uni-QQyinle" />
+            </svg>
+            <svg className="icon" aria-hidden="true">
+              <use xlinkHref='#uni-kugou'/>
+            </svg>
+            <svg className="icon" aria-hidden="true">
+              <use xlinkHref='#uni-kuwo'/>
+            </svg>
+            <svg className="icon" aria-hidden="true">
+              <use xlinkHref='#uni-netease'/>
+            </svg>
+            <svg className="icon" aria-hidden="true">
+              <use xlinkHref='#uni-douyin'/>
+            </svg>
+            <svg className="icon" aria-hidden="true">
+              <use xlinkHref='#uni-quanminKge'/>
+            </svg>
+            <svg className="icon" aria-hidden="true">
+              <use xlinkHref='#uni-5sing'/>
+            </svg>
+            <svg className="icon" aria-hidden="true">
+              <use xlinkHref='#uni-spotify'/>
+            </svg>
+            <svg className="icon" aria-hidden="true">
+              <use xlinkHref='#uni-apple'/>
+            </svg>
+            <svg className="icon" aria-hidden="true">
+              <use xlinkHref='#uni-google-play'/>
+            </svg>
+            <svg className="icon" aria-hidden="true">
+              <use xlinkHref='#uni-amazon'/>
+            </svg>
+            <svg className="icon" aria-hidden="true">
+              <use xlinkHref='#uni-youtube'/>
+            </svg>
+            <svg className="icon" aria-hidden="true">
+              <use xlinkHref='#uni-joox'/>
+            </svg>
+          </div>
+        </div>
       </div>
     </div>
     <div className="central-container central-container-item">
@@ -77,7 +81,7 @@ const IndexPage: NextPage = () => (
             <div className="desc-container-icon">
               <span className="iconfont UniIcontianchongxing-"></span>
             </div>
-            <div className="desc-container-left text-3xl sm:text-5xl lg:text-6xl leading-none font-extrabold text-gray-900 tracking-tight mb-8">
+            <div className="desc-container-left text-4xl sm:text-5xl lg:text-6xl leading-none font-extrabold text-gray-900 tracking-tight mb-8">
               一站式数字版权管理
             </div>
             <div className="desc-container-right">
@@ -91,7 +95,7 @@ const IndexPage: NextPage = () => (
             <div className="desc-container-icon">
               <span className="iconfont UniIconquanqiu"></span>
             </div>
-            <div className="desc-container-left text-3xl sm:text-5xl lg:text-6xl leading-none font-extrabold text-gray-900 tracking-tight mb-8">
+            <div className="desc-container-left text-4xl sm:text-5xl lg:text-6xl leading-none font-extrabold text-gray-900 tracking-tight mb-8">
               全球数字版权发行
             </div>
             <div className="desc-container-right">
@@ -105,7 +109,7 @@ const IndexPage: NextPage = () => (
             <div className="desc-container-icon">
               <span className="iconfont UniIconmoney"></span>
             </div>
-            <div className="desc-container-left text-3xl sm:text-5xl lg:text-6xl leading-none font-extrabold text-gray-900 tracking-tight mb-8">
+            <div className="desc-container-left text-4xl sm:text-5xl lg:text-6xl leading-none font-extrabold text-gray-900 tracking-tight mb-8">
               方便快捷的结算
             </div>
             <div className="desc-container-right">
@@ -119,7 +123,7 @@ const IndexPage: NextPage = () => (
             <div className="desc-container-icon">
               <span className="iconfont UniIconshuju"></span>
             </div>
-            <div className="desc-container-left text-3xl sm:text-5xl lg:text-6xl leading-none font-extrabold text-gray-900 tracking-tight mb-8">
+            <div className="desc-container-left text-4xl sm:text-5xl lg:text-6xl leading-none font-extrabold text-gray-900 tracking-tight mb-8">
               数据维度监控
             </div>
             <div className="desc-container-right">
@@ -128,12 +132,12 @@ const IndexPage: NextPage = () => (
           </div>
         </div>
         <div className="desc-container">
-          <div className="desc-container-item flex items-center">
-            <div className="desc-container-left flex-1">
+          <div className="desc-container-item items-center mx-auto grid grid-cols-1 md:grid-cols-none md:flex">
+            <div className="desc-container-left flex-1 text-center md:text-left">
               <p className="text-3xl sm:text-5xl lg:text-4xl leading-none font-extrabold text-gray-900 tracking-tight mb-3 max-w-[40.23rem]">LIANHE.ART 每天都在进步，不要错过所有动作。</p>
-              <p className="gray text-1xl sm:text-1xl leading-none tracking-tight max-w-[40.23rem]">加入 LIANHE.ART，用最好的解决方案管理您的数字版权。</p>
+              <p className="gray">加入 LIANHE.ART，用最便捷的解决方案管理您的数字版权。</p>
             </div>
-            <div className="main-button">
+            <div className="main-button mt-5 md:mt-0 justify-center md:justify-start">
               <div className="btn">立刻体验</div>
             </div>
           </div>
@@ -144,10 +148,7 @@ const IndexPage: NextPage = () => (
       {`
         .desc-container {
           width: 100%;
-          margin-bottom: 8rem;
-        }
-        .desc-container:last-child {
-          margin-bottom: 1rem;
+          margin-bottom: 4rem;
         }
         .desc-container:nth-child(2n) .desc-container-item { 
           text-align: right;
@@ -162,16 +163,14 @@ const IndexPage: NextPage = () => (
         }
         .desc-container:nth-child(2n) .desc-container-item .desc-container-right { 
           padding-right: 0;
-          padding-left: 8.5rem;
         }
         .desc-container-right {
           font-weight: 400;
-          font-size: 20px;
+          font-size: 16px;
           line-height: 1.6;
           letter-spacing: -0.02em;
           color: #666666;
           margin: 0 0 45px;
-          padding-right: 8.5rem;
           box-sizing: border-box;
         }
         .desc-container-icon {
@@ -198,14 +197,14 @@ const IndexPage: NextPage = () => (
           position: relative;
         }
         .central-container-item { 
-          margin-top: 9rem;
+          margin-top: 5rem;
         }
         .central-container-item h2 {
           font-size: 2rem;
           letter-spacing: -1px;
           line-height: 1.3;
           font-weight: 700;
-          margin-bottom: 1rem;
+          margin-bottom: 0.5rem;
         }
         .central-container-item h3 {
           font-weight: 400;
@@ -214,37 +213,55 @@ const IndexPage: NextPage = () => (
           letter-spacing: -0.02em;
           color: #666666;
           text-align: center;
-          margin-bottom: 8rem;
+          margin-bottom: 4rem;
         }
         .gray {
           font-weight: 400;
-          font-size: 18px;
+          font-size: 16px;
           line-height: 1.6;
           letter-spacing: -0.02em;
           color: #666666;
         }
         .intro-container {
-          padding-top: 17rem;
+          padding-top: 13rem;
         }
         .intro-container h1{
-          font-size: 100px;
+          font-size: 55px;
           line-height: 1;
-          letter-spacing: -0.05em;
           font-weight: 800;
           text-align: center;
           margin-bottom: 0.35em;
+          font-weight: 800;
         }
         .intro-container h3{
           font-weight: 400;
-          font-size: 20px;
+          font-size: 16px;
           line-height: 1.6;
           letter-spacing: -0.02em;
           color: #666666;
           margin: 0 0 45px;
           text-align: center;
         }
+        .platform-container {
+          padding-top: 5rem;
+          overflow: hidden;
+          white-space: nowrap;
+          margin: 0 -1rem;
+        }
         .platform-lists {
-          padding-top: 10rem;
+          display: inline-block;
+          white-space: nowrap;
+        }
+        .platform-lists svg{
+          width: 100px;
+          display: inline-block;
+          vertical-align: middle;
+        }
+        .platform-lists-slide { 
+          display: inline-block;
+          white-space: nowrap;
+          overflow: hidden;
+          animation: slide 80s linear infinite normal;
         }
         .platform-lists svg {
           filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
@@ -265,6 +282,74 @@ const IndexPage: NextPage = () => (
           left: 50%;
           bottom: 0;
           z-index: 1;
+        }
+        @media (min-width: 780px) {
+          .intro-container h1 { 
+            font-size: 70px;
+            letter-spacing: -0.05em;
+          }
+        }
+        @media (min-width: 1024px) {
+          .platform-lists-slide {
+            animation: none;
+            width: 100%;
+          }
+          .intro-container h1 {
+            font-size: 100px;
+            letter-spacing: -0.05em;
+          }
+          .intro-container h3 {
+            font-size: 20px;
+          }
+          .gray {
+            font-size: 20px;
+          }
+          .desc-container-right {
+            font-size: 20px;
+            padding-right: 8.5rem;
+          }
+          .desc-container:nth-child(2n) .desc-container-item .desc-container-right { 
+            padding-right: 0;
+            padding-left: 8.5rem;
+          }
+          .desc-container {
+            margin-bottom: 8rem;
+          }
+          .intro-container {
+            padding-top: 17rem;
+          }
+          .platform-container {
+            padding-top: 10rem;
+            max-width: 1024px;
+            margin-left: auto;
+            margin-right: auto;
+          }
+          .platform-lists {
+            display: flex;
+            width: 100%;
+          }
+          .platform-lists svg {
+            width: 48px;
+          }
+          .central-container-item { 
+            margin-top: 9rem;
+          }
+          .central-container-item h3 {
+            padding-bottom: 7rem;
+          }
+        }
+        @keyframes slide {
+            from {
+                -webkit-transform: translate3d(0,0,0);
+                -ms-transform: translate3d(0,0,0);
+                transform: translate3d(0,0,0);
+            }
+        
+            to {
+                -webkit-transform: translate3d(-50%,0,0);
+                -ms-transform: translate3d(-50%,0,0);
+                transform: translate3d(-50%,0,0);
+            }
         }
       `}
     </style>

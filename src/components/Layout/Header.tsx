@@ -8,23 +8,21 @@ const Header: React.FC = () => {
         <div className="header-container-logo">
           <embed src="/imgs/logo.svg" type="image/svg+xml" />
         </div>
-        <div className="header-container-menu">
-          <div className="space-x-8 text-lg font-normal">
-            <Link href="/">
-              <a rel="noreferrer noopener" className="transition duration-200 ease-in-out active">首页</a>
-            </Link>
-            <Link href="https://unionmusic.freshdesk.com">
-              <a rel="noreferrer noopener" target="_blank" className="transition duration-200 ease-in-out active">支持</a>
-            </Link>
-            <Link href="https://support.lianhe.art/support/tickets/new">
-              <a rel="noreferrer noopener" target="_blank" className="transition duration-200 ease-in-out active">合作</a>
-            </Link>
-            <Link href="https://support.lianhe.art">
-              <a rel="noreferrer noopener" target="_blank" className="transition duration-500 ease-in-out hover:text-blue-500 active">
-                帮助
-              </a>
-            </Link>
-          </div>
+        <div className="header-container-menu flex-1 justify-between">
+          <Link href="/">
+            <a rel="noreferrer noopener" className="transition duration-200 ease-in-out active">首页</a>
+          </Link>
+          <Link href="https://support.lianhe.art/support/tickets/new">
+            <a rel="noreferrer noopener" target="_blank" className="transition duration-200 ease-in-out active">商务合作</a>
+          </Link>
+          <Link href="https://support.lianhe.art/support/tickets/new">
+            <a rel="noreferrer noopener" target="_blank" className="transition duration-200 ease-in-out active">侵权投诉</a>
+          </Link>
+          <Link href="https://support.lianhe.art">
+            <a rel="noreferrer noopener" target="_blank" className="transition duration-500 ease-in-out hover:text-blue-500 active">
+              帮助中心
+            </a>
+          </Link>
         </div>
         <div className="main-button">
           <div className="button-spacer">
@@ -57,19 +55,46 @@ const Header: React.FC = () => {
         }
         .header-container-logo embed {
           width: 140px;
+          height: 15.81px;
         }
         .header-container-menu {
           color: #696969;
           display: flex;
           flex: 1;
-          justify-content: flex-end;
-          margin-right: 2rem;
+          margin: 0 5rem;
+          width: 100%;
         }
         .header-container-menu a {
           font-size: 16px;
         }
         .active:hover {
           color: #3583fb;
+        }
+        @media (max-width: 768px) {
+          .header {
+            height: 125px;
+          }
+          .header-container {
+            width: 100%;
+            box-sizing: border-box;
+          }
+          .header-container-logo {
+            flex: 1;
+            padding: 0;
+          }
+          .header-container-menu {
+            position: absolute;
+            left: 1rem;
+            right: 1rem;
+            top: 80px;
+            margin: 0 0;
+            width: calc(100vw - 2rem);
+          }
+          .header-container-menu a {
+            font-size: 14px;
+          }
+          .header-container-menu {
+          }
         }
       `}</style>
     </div>

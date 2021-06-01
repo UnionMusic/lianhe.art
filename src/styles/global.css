@@ -19,9 +19,14 @@ body {
   display: flex;
   flex-direction: row;
 }
-.button-spacer{
+
+.button-spacer {
   padding: 10px;
   display: flex;
+}
+
+.button-spacer:last-child {
+  padding-right: 0;
 }
 
 .btn {
