@@ -5,7 +5,7 @@ const AboutPage: NextPage = () => (
   <Layout title="关于我们">
     <div className="md:container md:mx-auto">
       <div className="min-h-screen py-6 flex flex-col justify-center sm:py-12">
-        <div className="relative px-4 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20">
+        <div className="relative px-4 py-10 bg-white shadow-2xl sm:rounded-3xl sm:p-20">
           <div className="relative py-8">
             <div>
               <h1 className="text-7xl my-8">关于我们</h1>
