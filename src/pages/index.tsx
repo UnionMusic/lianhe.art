@@ -12,7 +12,7 @@ const IndexPage: NextPage = () => (
     <div className="central-container">
       <div className="intro-container max-w-screen-lg mx-auto flex flex-col justify-center items-center">
         <h1>数字版权管理平台</h1>
-        <h3>为您提供最便捷的版权管理服务，包括覆盖至海内外播放渠道的歌曲发行，业内领先的方便快捷的收益结算，以及数据监控，侵权维权等服务。</h3>
+        <h3>为您提供便捷的版权管理服务，包括提供覆盖至海内外播放渠道的歌曲发行，方便快捷的全球收益结算，及数据监控，侵权维权等服务。</h3>
         <div className="flex grid grid-cols-1 md:grid-cols-2">
           <div className="button-spacer">
             <Link href="https://d.lianhe.art/account/login">
