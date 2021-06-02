@@ -11,17 +11,11 @@ const Footer: React.FC = () => {
             <div className="flex flex-col mb-8">
               <h4 className="font-bold">资源</h4>
               <div className="flex flex-col mt-3 space-y-1">
-                <Link href="https://support.lianhe.art">
-                  <a rel="noreferrer noopener" target="_blank">支持</a>
+                <Link href="https://support.lianhe.art/support/tickets/new">
+                  <a rel="noreferrer noopener" target="_blank">提交工单</a>
                 </Link>
                 <Link href="https://support.lianhe.art">
-                  <a rel="noreferrer noopener" target="_blank">帮助</a>
-                </Link>
-                <Link href="mailto:contact@lianhe.art">
-                  <a rel="noreferrer noopener" target="_blank">侵权投诉</a>
-                </Link>
-                <Link href="mailto:music@lianhe.art">
-                  <a rel="noreferrer noopener" target="_blank">商务洽谈</a>
+                  <a rel="noreferrer noopener" target="_blank">帮助中心</a>
                 </Link>
               </div>
             </div>
@@ -32,7 +26,7 @@ const Footer: React.FC = () => {
                 <Link href="/about">
                   <a rel="noreferrer noopener">关于我们</a>
                 </Link>
-                <Link href="/">
+                <Link href="/contact">
                   <a rel="noreferrer noopener">联系我们</a>
                 </Link>
                 <Link href="/">
