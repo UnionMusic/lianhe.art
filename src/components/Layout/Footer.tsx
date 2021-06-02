@@ -33,7 +33,7 @@ const Footer: React.FC = () => {
                   <a rel="noreferrer noopener">关于我们</a>
                 </Link>
                 <Link href="/">
-                  <a rel="noreferrer noopener" target="_blank">联系我们</a>
+                  <a rel="noreferrer noopener">联系我们</a>
                 </Link>
                 <Link href="/">
                   <a rel="noreferrer noopener" target="_blank">用户协议</a>
