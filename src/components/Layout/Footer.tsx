@@ -44,7 +44,7 @@ const Footer: React.FC = () => {
             <div className="flex flex-col mb-8">
               <h4 className="font-bold">社交媒体</h4>
               <div className="flex flex-col mt-3 space-y-1">
-                <Link href="/">
+                <Link href="https://github.com/UnionMusic">
                   <a rel="noreferrer noopener" target="_blank">GitHub</a>
                 </Link>
                 <Link href="/">
