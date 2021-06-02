@@ -50,7 +50,7 @@ const Footer: React.FC = () => {
                 <Link href="/">
                   <a rel="noreferrer noopener" target="_blank">抖音</a>
                 </Link>
-                <Link href="/">
+                <Link href="https://weibo.com/u/6215288462">
                   <a rel="noreferrer noopener" target="_blank">微博</a>
                 </Link>
               </div>
