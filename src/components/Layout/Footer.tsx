@@ -29,6 +29,9 @@ const Footer: React.FC = () => {
             <div className="flex flex-col mb-8">
               <h4 className="font-bold">关于</h4>
               <div className="flex flex-col mt-3 space-y-1">
+                <Link href="/about">
+                  <a rel="noreferrer noopener">关于我们</a>
+                </Link>
                 <Link href="/">
                   <a rel="noreferrer noopener" target="_blank">联系我们</a>
                 </Link>
