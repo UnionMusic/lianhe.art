@@ -5,13 +5,13 @@ name: cdn
 
 inputs:
   area: mainland
-  domain: static.lianhe.art
+  domain: www.lianhe.art
   origin:
     origins:
-      - ${output:${stage}:${app}:cos.cosOrigin}
+      - lianhe-art-3gy61clx742a81be-1254054744.tcloudbaseapp.com
     originType: cos
     originPullProtocol: http
   onlyRefresh: true
   refreshCdn:
     urls:
-      - https://static.lianhe.art/
+      - https://www.lianhe.art/
