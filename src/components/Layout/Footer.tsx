@@ -71,6 +71,19 @@ const Footer: React.FC = () => {
           </div>
         </div>
       </div>
+      <script async src='https://www.googletagmanager.com/gtag/js?id=UA-177377361-2'/>
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-177377361-2', {
+              page_path: window.location.pathname,
+            });
+          `,
+        }}
+      />
       <style jsx>{`
         .footer {
           background-color: #fafafa;
