@@ -1,3 +1,25 @@
+# [1.1.0](https://github.com/UnionMusic/lianhe.art/compare/v1.0.0...v1.1.0) (2021-06-08)
+
+
+### Features
+
+* add google analytics ([e4d5d80](https://github.com/UnionMusic/lianhe.art/commit/e4d5d80ca9c2bf81b16d5323e623c7a75374817d))
+* **about:** add alt in the logo image ([f1ba298](https://github.com/UnionMusic/lianhe.art/commit/f1ba2989829b5c412cf7b89e255364098db94512))
+* **about:** update content ([7be979a](https://github.com/UnionMusic/lianhe.art/commit/7be979a0a3ffde14ac6e30902f02313c53b7def5))
+* **footer:** add about us ([5dfd82e](https://github.com/UnionMusic/lianhe.art/commit/5dfd82e7a802740e90961b5f97d187f4da7ade8e))
+* **footer:** add github url ([7aa8054](https://github.com/UnionMusic/lianhe.art/commit/7aa80545d07ee8ae3e855e50f7c4a47ea0ec2b80))
+* **footer:** add weibo url ([70f24ba](https://github.com/UnionMusic/lianhe.art/commit/70f24bae881f832e069ddff1a7140036b7719701))
+* **index:** media ([#79](https://github.com/UnionMusic/lianhe.art/issues/79)) ([5f91126](https://github.com/UnionMusic/lianhe.art/commit/5f91126660e4a7a7d0ae16794dece40bc6303fde))
+* add contact page ([3f3415b](https://github.com/UnionMusic/lianhe.art/commit/3f3415ba14f0f9d770c869d9d0eb02588f09e515))
+* add contact page ([ae36850](https://github.com/UnionMusic/lianhe.art/commit/ae36850ea7bb1dbfd78e90814383498a6248acbc))
+* add unionmusic.freshdesk.com dns-prefetch ([cac07c4](https://github.com/UnionMusic/lianhe.art/commit/cac07c422c3ec4f719bb24bdb3e185ab38f99f81))
+* **Header:** add support portal url ([5904849](https://github.com/UnionMusic/lianhe.art/commit/590484985ec880de657c17e5865bc099141da6f4))
+* **index:** import next/link ([35518fa](https://github.com/UnionMusic/lianhe.art/commit/35518fa08d3504553dea5ca0381c78d0672a5138))
+* **Layout:** add some needs meta and link ([5d4c7b9](https://github.com/UnionMusic/lianhe.art/commit/5d4c7b99de067f778c88fceb9481e8b945711815))
+* **style:** add tailwind base components utilities ([1100ebf](https://github.com/UnionMusic/lianhe.art/commit/1100ebfb90cda2c811147335ad4070374f0f6652))
+* add noreferrer noopener ([2fc5bcb](https://github.com/UnionMusic/lianhe.art/commit/2fc5bcb97d4d57a1706b81dd88bb29cc2aac2506))
+* **public/imgs:** add favicon ico and png ([04d9199](https://github.com/UnionMusic/lianhe.art/commit/04d9199f9776601c79099a133ce485a4ee63302c))
+
 # [1.1.0](https://github.com/UnionMusic/lianhe.art/compare/v1.0.0...v1.1.0) (2021-06-02)
 
 
