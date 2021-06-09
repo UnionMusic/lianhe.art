@@ -11,6 +11,9 @@ const Footer: React.FC = () => {
             <div className="flex flex-col mb-8">
               <h4 className="font-bold">资源</h4>
               <div className="flex flex-col mt-3 space-y-1">
+                <Link href="https://status.lianhe.art">
+                  <a rel="noreferrer noopener" target="_blank">服务状态</a>
+                </Link>
                 <Link href="https://support.lianhe.art/support/tickets/new">
                   <a rel="noreferrer noopener" target="_blank">提交工单</a>
                 </Link>
