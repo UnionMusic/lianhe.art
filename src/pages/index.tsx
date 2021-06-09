@@ -138,7 +138,11 @@ const IndexPage: NextPage = () => (
               <p className="gray">加入 LIANHE.ART，用最便捷的解决方案管理您的数字版权。</p>
             </div>
             <div className="main-button mt-5 md:mt-0 justify-center md:justify-start">
-              <div className="btn">立刻体验</div>
+              <div className="btn">
+                <Link href="https://d.lianhe.art/account/login">
+                  <a>立刻体验</a>
+                </Link>
+              </div>
             </div>
           </div>
         </div>
