@@ -19,8 +19,8 @@ const Layout: React.FC<Props> = ({ children, title = 'This is the default title'
       <link rel="shortcut icon" href="/favicon.ico" />
       <link rel="icon" type="image/png" href="/favicon.png" />
       <link rel="mask-icon" href="/favicon.png" color="#ff8a01" />
-      <meta name="msapplication-TileColor" content="#4571FC" />
-      <meta name="theme-color" content="#4571FC" />
+      <meta name="msapplication-TileColor" content="#ffffff" />
+      <meta name="theme-color" content="#ffffff" />
       <link rel="dns-prefetch" href="https://www.lianhe.art" />
       <link rel="dns-prefetch" href="https://drm.lianhe.art" />
       <link rel="dns-prefetch" href="https://support.lianhe.art" />
