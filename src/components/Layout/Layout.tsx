@@ -29,7 +29,6 @@ const Layout: React.FC<Props> = ({ children, title = 'This is the default title'
       <link rel="mask-icon" href="/favicon.png" color="#ff8a01" />
       <meta name="msapplication-TileColor" content="#ffffff" />
       <meta name="theme-color" content="#ffffff" />
-
       <link rel="stylesheet" href="//at.alicdn.com/t/font_2577785_pyavbz2qbr.css" />
     </Head>
     <Header />
