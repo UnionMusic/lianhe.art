@@ -7,18 +7,23 @@ const Footer: React.FC = () => {
       <div className="footer-bottom-container">
         <div className="max-w-screen-lg mx-auto">
           <div className="max-w-screen-lg mx-auto justify-between grid grid-cols-2 md:flex">
-
             <div className="flex flex-col mb-8">
               <h4 className="font-bold">资源</h4>
               <div className="flex flex-col mt-3 space-y-1">
                 <Link href="https://status.lianhe.art">
-                  <a rel="noreferrer noopener" target="_blank">服务状态</a>
+                  <a rel="noreferrer noopener" target="_blank">
+                    服务状态
+                  </a>
                 </Link>
                 <Link href="https://support.lianhe.art/support/tickets/new">
-                  <a rel="noreferrer noopener" target="_blank">提交工单</a>
+                  <a rel="noreferrer noopener" target="_blank">
+                    提交工单
+                  </a>
                 </Link>
                 <Link href="https://support.lianhe.art">
-                  <a rel="noreferrer noopener" target="_blank">帮助中心</a>
+                  <a rel="noreferrer noopener" target="_blank">
+                    帮助中心
+                  </a>
                 </Link>
               </div>
             </div>
@@ -33,10 +38,14 @@ const Footer: React.FC = () => {
                   <a rel="noreferrer noopener">联系我们</a>
                 </Link>
                 <Link href="/">
-                  <a rel="noreferrer noopener" target="_blank">用户协议</a>
+                  <a rel="noreferrer noopener" target="_blank">
+                    用户协议
+                  </a>
                 </Link>
                 <Link href="/">
-                  <a rel="noreferrer noopener" target="_blank">隐私政策</a>
+                  <a rel="noreferrer noopener" target="_blank">
+                    隐私政策
+                  </a>
                 </Link>
               </div>
             </div>
@@ -45,13 +54,19 @@ const Footer: React.FC = () => {
               <h4 className="font-bold">社交媒体</h4>
               <div className="flex flex-col mt-3 space-y-1">
                 <Link href="https://github.com/UnionMusic">
-                  <a rel="noreferrer noopener" target="_blank">GitHub</a>
+                  <a rel="noreferrer noopener" target="_blank">
+                    GitHub
+                  </a>
                 </Link>
                 <Link href="/">
-                  <a rel="noreferrer noopener" target="_blank">抖音</a>
+                  <a rel="noreferrer noopener" target="_blank">
+                    抖音
+                  </a>
                 </Link>
                 <Link href="https://weibo.com/u/6215288462">
-                  <a rel="noreferrer noopener" target="_blank">微博</a>
+                  <a rel="noreferrer noopener" target="_blank">
+                    微博
+                  </a>
                 </Link>
               </div>
             </div>
@@ -60,21 +75,30 @@ const Footer: React.FC = () => {
               <h4 className="font-bold">合作平台</h4>
               <div className="flex flex-col mt-3 space-y-1">
                 <Link href="https://www.tencentmusic.com">
-                  <a rel="noreferrer noopener" target="_blank">腾讯音乐</a>
+                  <a rel="noreferrer noopener" target="_blank">
+                    腾讯音乐
+                  </a>
                 </Link>
                 <Link href="https://music.163.com">
-                  <a rel="noreferrer noopener" target="_blank">网易云</a>
+                  <a rel="noreferrer noopener" target="_blank">
+                    网易云
+                  </a>
                 </Link>
               </div>
             </div>
           </div>
           <div className="footer-bottom-container-logo mt-5">
             <embed src="/imgs/logo.svg" type="image/svg+xml" />
-            <div className="footer-bottom-container-logo-description">Copyright © 2017 - 2021 LIANHE.ART All Rights Reserved. 京 ICP 备 17045054 号-10</div>
+            <div className="footer-bottom-container-logo-description">
+              版权所有: 联合互娱（北京）文化有限公司; 平台曾用名: 联合音乐
+            </div>
+            <div className="footer-bottom-container-logo-description">
+              Copyright © 2017 - 2021 LIANHE.ART All Rights Reserved. 京 ICP 备 17045054 号-10
+            </div>
           </div>
         </div>
       </div>
-      <script async src='https://www.googletagmanager.com/gtag/js?id=UA-177377361-2'/>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-177377361-2" />
       <script
         dangerouslySetInnerHTML={{
           __html: `
