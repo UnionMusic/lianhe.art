@@ -14,7 +14,7 @@ const AboutPage: NextPage = () => (
             <div className="divide-y divide-gray-200">
               <div className="py-8 text-base leading-6 text-gray-700 sm:text-lg sm:leading-7">
                 <p>
-                  我们是，联合互娱（北京）文化有限公司，我们致力于采用科技构建高效的音乐发行管理服务产品，为音乐人和厂牌公司提供高效的音乐全网发行、宣传、制作服务，高效地连接播放渠道和品牌，助力音乐行业价值创造。
+                  LIANHE.ART(联合音乐)是联合互娱(北京)文化有限公司旗下一款数字音乐版权综合服务平台，提供音乐发行上线、音乐营销与推广、词曲销售、版权保护与维权、版权结算、音乐数据监测分析等一套综合性的版权发行管理解决方案，LIANHEART你的音乐管家。
                 </p>
                 <br />
                 <p>
