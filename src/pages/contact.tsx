@@ -1,5 +1,6 @@
 import { Layout } from '../components/Layout'
 import { NextPage } from 'next'
+import Link from 'next/link'
 import {
   SupportIcon,
   UserGroupIcon,
@@ -23,9 +24,15 @@ const AboutPage: NextPage = () => (
                 <h3 className="text-4xl my-8">支持</h3>
                 <p className="text-gray-700">我们在这里帮助您解决任何问题。</p>
                 <div className="flex items-end">
-                  <button className="my-4 inline-flex items-center h-14 px-14 text-white transition-colors duration-150 bg-primary rounded-full focus:shadow-outline hover:bg-blue-800">
-                    获取支持 <ChevronRightIcon className="h-4 w-4 text-white" />
-                  </button>
+                  <Link href="https://support.lianhe.art">
+                    <a
+                      rel="noreferrer noopener"
+                      target="_blank"
+                      className="my-4 inline-flex items-center h-14 px-14 text-white transition-colors duration-150 bg-primary rounded-full focus:shadow-outline hover:bg-blue-800"
+                    >
+                      获取支持 <ChevronRightIcon className="h-4 w-4 text-white" />
+                    </a>
+                  </Link>
                 </div>
               </div>
               <div className="px-4 py-10 mr-8 bg-white shadow-lg sm:rounded-3xl sm:p-20">
@@ -38,9 +45,15 @@ const AboutPage: NextPage = () => (
                   <p className="text-gray-700">
                     加入我们的合作伙伴生态系统，用 LIANHEART 加速你的业务。
                   </p>
-                  <button className="my-4 inline-flex items-center h-14 px-14 text-white transition-colors duration-150 bg-primary rounded-full focus:shadow-outline hover:bg-blue-800">
-                    立即联系 <ChevronRightIcon className="h-4 w-4 text-white" />
-                  </button>
+                  <Link href="https://support.lianhe.art">
+                    <a
+                      rel="noreferrer noopener"
+                      target="_blank"
+                      className="my-4 inline-flex items-center h-14 px-14 text-white transition-colors duration-150 bg-primary rounded-full focus:shadow-outline hover:bg-blue-800"
+                    >
+                      立即联系 <ChevronRightIcon className="h-4 w-4 text-white" />
+                    </a>
+                  </Link>
                 </div>
               </div>
               <div className="px-4 py-10 mr-8 bg-white shadow-lg sm:rounded-3xl sm:p-20">
@@ -51,9 +64,15 @@ const AboutPage: NextPage = () => (
 
                   <h3 className="text-4xl my-8">帮助中心</h3>
                   <p className="text-gray-700">了解更多关于 LIANHEART 如何使你的创作更容易。</p>
-                  <button className="my-4 inline-flex items-center h-14 px-14 text-white transition-colors duration-150 bg-primary rounded-full focus:shadow-outline hover:bg-blue-800">
-                    查看文档 <ChevronRightIcon className="h-4 w-4 text-white" />
-                  </button>
+                  <Link href="https://support.lianhe.art">
+                    <a
+                      rel="noreferrer noopener"
+                      target="_blank"
+                      className="my-4 inline-flex items-center h-14 px-14 text-white transition-colors duration-150 bg-primary rounded-full focus:shadow-outline hover:bg-blue-800"
+                    >
+                      查看文档 <ChevronRightIcon className="h-4 w-4 text-white" />
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
