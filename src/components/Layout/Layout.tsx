@@ -24,11 +24,18 @@ const Layout: React.FC<Props> = ({ children, title = 'This is the default title'
         name="description"
         content="联合音乐数字音乐制作上线合作平台，是由联合互娱（北京）文化有限公司出品的一款包含歌曲发行、歌曲制作、词曲销售、免费制作、歌曲推广、服务平台，歌曲上线覆盖国内外知名音乐平台：腾讯音乐集团QQ音乐、酷狗音乐、酷我音乐、网易云音乐、百度音乐、虾米音乐；以及国际知名音乐平台：AppleMusic苹果音乐、Spotify、谷歌音乐、亚马逊音乐、KKBOX、YOUTUBE、等二十余家，除此之外，平台提供音乐真实热度粉丝数据多维度查询，以及榜单监控，版税结算的服务，和免费申报ISRC国际标准音像制品编码，为致力于让音乐人往更好的方向发展，我们一直在努力"
       />
+      <meta name="robots" content="index,follow" />
+      <meta name="author" content="author name" />
+      <meta name="google" content="index,follow" />
+      <meta name="googlebot" content="index,follow" />
+      <meta name="verify" content="index,follow" />
       <link rel="shortcut icon" href="/favicon.ico" />
       <link rel="icon" href="/favicon.ico" />
       <link rel="mask-icon" href="/favicon.png" color="#ff8a01" />
       <meta name="msapplication-TileColor" content="#ffffff" />
       <meta name="theme-color" content="#ffffff" />
+      <meta name="google" content="notranslate" />
+      <meta content="telephone=no" name="format-detection" />
       <link rel="stylesheet" href="//at.alicdn.com/t/font_2577785_pyavbz2qbr.css" />
     </Head>
     <Header />
