@@ -40,7 +40,7 @@ const Footer: React.FC = () => {
                 <Link href="/contact">
                   <a rel="noreferrer noopener">联系我们</a>
                 </Link>
-                <Link href="/">
+                <Link href="/terms-of-service">
                   <a rel="noreferrer noopener" target="_blank">
                     用户协议
                   </a>
