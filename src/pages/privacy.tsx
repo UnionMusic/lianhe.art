@@ -259,7 +259,9 @@ const PrivacyPage: NextPage = () => (
             </div>
             <div className="divide-y divide-gray-200">
               <div className="py-4 text-base leading-6 text-gray-700 sm:text-lg sm:leading-7 markdown">
-                <ReactMarkdown children={content} remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]} />
+                <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]}>
+                  {content}
+                </ReactMarkdown>
               </div>
             </div>
           </div>
