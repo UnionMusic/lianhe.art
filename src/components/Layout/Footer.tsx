@@ -45,7 +45,7 @@ const Footer: React.FC = () => {
                     用户协议
                   </a>
                 </Link>
-                <Link href="/">
+                <Link href="/privacy">
                   <a rel="noreferrer noopener" target="_blank">
                     隐私政策
                   </a>
