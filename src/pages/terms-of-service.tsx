@@ -84,11 +84,14 @@ LIANHE.ART 可能会不经通知随时更改本网站上提供的任何产品或
 
 以下条款也约束并适用于本网站的使用，并且通过此处援引纳入本条款：
 
-- LIANHE.ART 商标和版权材料使用准则
-- LIANHE.ART 企业入驻合作框架协议
-- LIANHE.ART 个人入驻合作框架协议
-- 版权侵权损害赔偿请求
-
+<div class="ml-8">
+  <ul class="list-disc md:list-inside">
+    <li>LIANHE.ART 商标和版权材料使用准则</li>
+    <li>LIANHE.ART 企业入驻合作框架协议</li>
+    <li>LIANHE.ART 个人入驻合作框架协议</li>
+    <li>版权侵权损害赔偿请求</li>
+  </ul>
+</div>
 <br />
 
 以上每项政策都可能随时更改，并自本网站上发布此类更改后立即生效。
