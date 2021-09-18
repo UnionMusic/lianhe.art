@@ -1,3 +1,23 @@
+# [1.2.0](https://github.com/UnionMusic/lianhe.art/compare/v1.1.0...v1.2.0) (2021-09-18)
+
+
+### Bug Fixes
+
+* **Layout:** icon not working ([3267a7a](https://github.com/UnionMusic/lianhe.art/commit/3267a7a6f347ec8e48dbf6f1e114fb6113c4598a))
+
+
+### Features
+
+* add privacy page ([d150e6c](https://github.com/UnionMusic/lianhe.art/commit/d150e6c7c688b3f63ae6feee439f127eb852c843))
+* add robot metas ([c6017bb](https://github.com/UnionMusic/lianhe.art/commit/c6017bb085dd5e89756a4e9d986ebf4bb971839c))
+* add robots.txt ([af4b54e](https://github.com/UnionMusic/lianhe.art/commit/af4b54eded1a5fda4e1ea0c2b0a12810bd7674de))
+* add tos page ([24799bc](https://github.com/UnionMusic/lianhe.art/commit/24799bcb0467c916a693c41ef2982fdc93d32e17))
+* **app:** add handleRouteChange ([9a18e03](https://github.com/UnionMusic/lianhe.art/commit/9a18e03f62f0fec3f570df056eb5fc2f3762e8d6))
+* **footer:** add service status ([c3961e7](https://github.com/UnionMusic/lianhe.art/commit/c3961e7de4b3f5b4ec797471a2c9cb005ddc73f1))
+* **index:** add url in 「立即体验」 ([abb3cd4](https://github.com/UnionMusic/lianhe.art/commit/abb3cd400341e2f0ab61d5e8884eae239b155cb5))
+* **lib:** add gtag ([3c00373](https://github.com/UnionMusic/lianhe.art/commit/3c00373ff29cb6b4e485d547f82399b69dbfa7c5))
+* products centre ([#172](https://github.com/UnionMusic/lianhe.art/issues/172)) ([c300914](https://github.com/UnionMusic/lianhe.art/commit/c300914e50bdeb2214e5ba36946a366a35baa198))
+
 # [1.1.0](https://github.com/UnionMusic/lianhe.art/compare/v1.0.0...v1.1.0) (2021-06-08)
 
 
