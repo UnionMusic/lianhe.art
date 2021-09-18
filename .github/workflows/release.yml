@@ -17,6 +17,7 @@ jobs:
     strategy:
       matrix:
         node: [ '15' ]
+    timeout-minutes: 5
 
     name: Deploy static files to COS
     steps:
