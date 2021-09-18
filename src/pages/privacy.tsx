@@ -6,7 +6,7 @@ import rehypeRaw from 'rehype-raw'
 
 const content = `<div className="markdown-container py-8 text-base leading-6 text-gray-700 sm:text-lg sm:leading-7">
 
-**最后更新：2021 年 9 月 8 日**
+**最后更新：2021 年 9 月 18 日**
 
 <br />
 
@@ -209,8 +209,8 @@ LIANHE.ART 产品和服务将你与世界连接。为了实现这一目标，**�
 <br />
 <div class="ml-8">
   <ul class="list-disc md:list-inside">
-    <li>如果你居住在「指定国家/地区」之内: 联合互娱（北京）文化有限公司 将成为控制方，控制提供给我们的服务、由服务收集或为服务之目的收集、或因服务而处理的个人数据。</li>
-    <li>如果你居住在「指定国家/地区」之外: 聯合音樂有限公司（Union Music Limited.） 将成为控制方，控制提供给我们的服务、由服务收集或为服务之目的收集、或因服务而处理的个人数据。</li>
+    <li>如果你居住在「指定国家/地区」之内: 聯合音樂有限公司（Union Music Limited.） 将成为控制方，控制提供给我们的服务、由服务收集或为服务之目的收集、或因服务而处理的个人数据。</li>
+    <li>如果你居住在「指定国家/地区」之外: 联合互娱（北京）文化有限公司 将成为控制方，控制提供给我们的服务、由服务收集或为服务之目的收集、或因服务而处理的个人数据。</li>
   </ul>
 </div>
 <br />
