@@ -2,6 +2,7 @@ import React, { ReactNode } from 'react'
 import Head from 'next/head'
 import Header from './Header'
 import Footer from './Footer'
+import { GA_TRACKING_ID } from '../../lib/gtag'
 
 type Props = {
   children?: ReactNode
@@ -37,6 +38,19 @@ const Layout: React.FC<Props> = ({ children, title = 'This is the default title'
       <meta name="google" content="notranslate" />
       <meta content="telephone=no" name="format-detection" />
       <link rel="stylesheet" href="//at.alicdn.com/t/font_2577785_pyavbz2qbr.css" />
+      <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`} />
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${GA_TRACKING_ID}', {
+              page_path: window.location.pathname,
+            });
+          `,
+        }}
+      />
     </Head>
     <Header />
     <div className="px-4 xl:px-0">{children}</div>
