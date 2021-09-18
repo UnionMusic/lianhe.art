@@ -10,16 +10,34 @@ const Header: React.FC = () => {
         </div>
         <div className="header-container-menu flex-1 justify-between">
           <Link href="/">
-            <a rel="noreferrer noopener" className="transition duration-200 ease-in-out active">首页</a>
+            <a rel="noreferrer noopener" className="transition duration-200 ease-in-out active">
+              首页
+            </a>
           </Link>
           <Link href="https://support.lianhe.art/support/tickets/new">
-            <a rel="noreferrer noopener" target="_blank" className="transition duration-200 ease-in-out active">商务合作</a>
+            <a
+              rel="noreferrer noopener"
+              target="_blank"
+              className="transition duration-200 ease-in-out active"
+            >
+              商务合作
+            </a>
           </Link>
           <Link href="https://support.lianhe.art/support/tickets/new">
-            <a rel="noreferrer noopener" target="_blank" className="transition duration-200 ease-in-out active">侵权投诉</a>
+            <a
+              rel="noreferrer noopener"
+              target="_blank"
+              className="transition duration-200 ease-in-out active"
+            >
+              侵权投诉
+            </a>
           </Link>
           <Link href="https://support.lianhe.art">
-            <a rel="noreferrer noopener" target="_blank" className="transition duration-500 ease-in-out hover:text-blue-500 active">
+            <a
+              rel="noreferrer noopener"
+              target="_blank"
+              className="transition duration-500 ease-in-out hover:text-blue-500 active"
+            >
               帮助中心
             </a>
           </Link>
@@ -27,12 +45,16 @@ const Header: React.FC = () => {
         <div className="main-button">
           <div className="button-spacer">
             <Link href="https://d.lianhe.art/account/login">
-              <a rel="noreferrer noopener" className="btn btn-primary">登录</a>
+              <a rel="noreferrer noopener" className="btn btn-primary">
+                登录
+              </a>
             </Link>
           </div>
           <div className="button-spacer">
             <Link href="https://d.lianhe.art/account/register">
-              <a rel="noreferrer noopener" className="btn btn-line btn-outline btn-primary">注册</a>
+              <a rel="noreferrer noopener" className="btn btn-line btn-outline btn-primary">
+                注册
+              </a>
             </Link>
           </div>
         </div>
@@ -44,7 +66,7 @@ const Header: React.FC = () => {
           z-index: 999;
           background: #ffffff;
         }
-        .header-container{
+        .header-container {
           padding: 1rem 1rem;
           max-width: 1064px;
           text-align: center;
