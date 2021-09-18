@@ -4,7 +4,7 @@ import { SupportIcon, UserGroupIcon, DocumentSearchIcon } from '@heroicons/react
 import React from 'react'
 
 const AboutPage: NextPage = () => (
-  <Layout title="产品中心">
+  <Layout title="产品中心 - LIANHE.ART 联合音乐 数字版权管理发行合作平台">
     <div className="md:container md:mx-auto">
       <div className="min-h-screen py-6 flex flex-col justify-start sm:py-12">
         <div className="relative px-4 py-10 sm:rounded-3xl sm:p-20">

@@ -4,7 +4,7 @@ import React from 'react'
 import Link from 'next/link'
 
 const IndexPage: NextPage = () => (
-  <Layout title="LIANHE.ART 数字版权管理发行合作平台">
+  <Layout title="LIANHE.ART 联合音乐 数字版权管理发行合作平台">
     <div className="central-container">
       <div className="intro-container max-w-screen-lg mx-auto flex flex-col justify-center items-center">
         <h1>数字版权管理平台</h1>

@@ -186,7 +186,7 @@ LIANHE.ART 提供对 LIANHE.ART 国际数据的访问，因此其中可能包含
 版权所有 © 2017-2021 LIANHE.ART 保留所有权利。</div>`
 
 const ToSPage: NextPage = () => (
-  <Layout title="LIANHE.ART 网站使用条款">
+  <Layout title="网站使用条款 - LIANHE.ART 联合音乐 数字版权管理发行合作平台">
     <div className="md:container md:mx-auto lg:pt-20 pt-0">
       <div className="min-h-full py-12 flex flex-col justify-center sm:py-8">
         <div className="relative px-8 py-4 bg-white shadow-2xl sm:rounded-3xl sm:p-20">

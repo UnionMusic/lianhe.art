@@ -2,7 +2,7 @@ import { Layout } from '../components/Layout'
 import { NextPage } from 'next'
 
 const AboutPage: NextPage = () => (
-  <Layout title="关于我们">
+  <Layout title="关于我们 - LIANHE.ART 联合音乐 数字版权管理发行合作平台">
     <div className="md:container md:mx-auto">
       <div className="min-h-screen py-6 flex flex-col justify-center sm:py-12">
         <div className="relative px-4 py-10 bg-white shadow-2xl sm:rounded-3xl sm:p-20">

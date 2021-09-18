@@ -9,7 +9,7 @@ import {
 } from '@heroicons/react/outline'
 
 const AboutPage: NextPage = () => (
-  <Layout title="联系我们">
+  <Layout title="联系我们 - LIANHE.ART 联合音乐 数字版权管理发行合作平台">
     <div className="md:container md:mx-auto">
       <div className="min-h-screen py-6 flex flex-col justify-start sm:py-12">
         <div className="relative px-4 py-10 sm:rounded-3xl sm:p-20">

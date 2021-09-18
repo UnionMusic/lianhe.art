@@ -249,7 +249,7 @@ LIANHE.ART 非常重视你的隐私问题。我们设立了专门团队来查看
 当本隐私政策发生实质性更改时，我们将至少提前一周在本网站上发布通知，如果我们有你的存档数据，我们还会直接与你联系。</div>`
 
 const PrivacyPage: NextPage = () => (
-  <Layout title="LIANHE.ART 隐私政策">
+  <Layout title="隐私政策 - LIANHE.ART 联合音乐 数字版权管理发行合作平台">
     <div className="md:container md:mx-auto lg:pt-20 pt-0">
       <div className="min-h-full py-12 flex flex-col justify-center sm:py-8">
         <div className="relative px-8 py-4 bg-white shadow-2xl sm:rounded-3xl sm:p-20">
