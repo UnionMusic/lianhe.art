@@ -1,6 +1,11 @@
 # *
 User-agent: *
 Allow: /
+Disallow: /WeApi
+Disallow: /Rewrite
+Disallow: /Page
+Disallow: /Home
+Disallow: /request
 
 # Host
 Host: https://www.lianhe.art

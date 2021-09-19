@@ -7,7 +7,10 @@ module.exports = {
       {
         userAgent: '*',
         allow: '/',
-      }
+        disallow: [
+          '/WeApi', '/Rewrite', '/Page', '/Home', '/request'
+        ]
+      },
     ]
   },
   additionalSitemaps: [
