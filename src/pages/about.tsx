@@ -2,7 +2,7 @@ import { Layout } from '../components/Layout'
 import { NextPage } from 'next'
 
 const AboutPage: NextPage = () => (
-  <Layout title="关于我们 - LIANHE.ART 联合音乐 数字版权管理发行合作平台">
+  <Layout title="关于我们 - LIANHE.ART 联合音乐 数字版权管理发行合作平台" description="LIANHE.ART(联合音乐)是联合互娱(北京)文化有限公司旗下一款数字音乐版权综合服务平台，提供音乐发行上线、音乐营销与推广、词曲销售、版权保护与维权、版权结算、音乐数据监测分析等一套综合性的版权发行管理解决方案，LIANHEART你的音乐管家。">
     <div className="md:container md:mx-auto">
       <div className="min-h-screen py-6 flex flex-col justify-center sm:py-12">
         <div className="relative px-4 py-10 bg-white shadow-2xl sm:rounded-3xl sm:p-20">
