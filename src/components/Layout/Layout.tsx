@@ -1,8 +1,8 @@
-import React, { ReactNode } from 'react'
-import Head from 'next/head'
-import Header from './Header'
-import Footer from './Footer'
-import { GA_TRACKING_ID } from '../../lib/gtag'
+import React, {ReactNode} from 'react';
+import Head from 'next/head';
+import Header from './Header';
+import Footer from './Footer';
+import {GA_TRACKING_ID} from '../../lib/gtag';
 
 type Props = {
   children?: ReactNode
@@ -51,10 +51,10 @@ const Layout: React.FC<Props> = (
       />
     </Head>
     <Header />
-    <div className="px-4 xl:px-0">{children}</div>
+    <div className='px-4 xl:px-0'>{children}</div>
     <Footer />
-    <script async src="//at.alicdn.com/t/font_1831659_toerao4i589.js" />
+    <script async src='//at.alicdn.com/t/font_1831659_toerao4i589.js' />
   </div>
-)
+);
 
-export default Layout
+export default Layout;
