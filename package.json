@@ -27,7 +27,7 @@
     "react-reveal": "^1.2.2",
     "react-typed": "^1.2.0",
     "rehype-raw": "^6.1.0",
-    "remark-gfm": "^2.0.0"
+    "remark-gfm": "^3.0.0"
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^11.1.2",
