@@ -96,7 +96,12 @@ const Footer: React.FC = () => {
               版权所有: 联合互娱（北京）文化有限公司; 平台曾用名: 联合音乐
             </div>
             <div className="footer-bottom-container-logo-description">
-              Copyright © 2017 - 2021 LIANHE.ART All Rights Reserved. 京 ICP 备 17045054 号-10
+              Copyright © 2017 - 2021 LIANHE.ART All Rights Reserved.
+              <Link href="https://beian.miit.gov.cn">
+                <a rel="noreferrer noopener" target="_blank">
+                  京 ICP 备 17045054 号-10
+                </a>
+              </Link>
             </div>
           </div>
         </div>
