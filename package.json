@@ -20,7 +20,7 @@
     "@heroicons/react": "^1.0.5",
     "next": "latest",
     "next-seo": "^4.28.1",
-    "postcss": "^8.3.11",
+    "postcss": "^8.4.4",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-markdown": "^7.1.0",
