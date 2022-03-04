@@ -17,7 +17,7 @@ jobs:
     name: 'Lighthouse'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2.4.0
+      - uses: actions/checkout@v3
         with:
           fetch-depth: 1
           ref: ${{ github.head_ref }}
