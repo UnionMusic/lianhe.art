@@ -17,7 +17,7 @@
     "lint:style": "npx stylelint 'src/**/**.{css,scss}' --fix"
   },
   "dependencies": {
-    "@heroicons/react": "^1.0.5",
+    "@heroicons/react": "^2.0.8",
     "next": "latest",
     "next-seo": "^4.29.0",
     "postcss": "^8.4.6",
