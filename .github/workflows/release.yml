@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node: [ '15' ]
+        node: [ '16' ]
     timeout-minutes: 7
 
     name: Deploy static files to COS
@@ -91,7 +91,7 @@ jobs:
       - cos
     strategy:
       matrix:
-        node: [ '15' ]
+        node: [ '16' ]
 
     name: Publish to  CDN
     steps:
